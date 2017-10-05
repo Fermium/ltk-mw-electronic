@@ -1,4 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=ltk-mw.PrjPcb
+ProjectPath=receiver.PrjPcb
+[Project2]
+ProjectPath=transmitter.PrjPcb
