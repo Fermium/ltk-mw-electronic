@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=receiver.PrjPcb
 [Project2]
 ProjectPath=transmitter.PrjPcb
+[Project3]
+ProjectPath=panel.PrjPcb
