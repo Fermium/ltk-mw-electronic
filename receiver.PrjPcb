@@ -277,11 +277,11 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=exports\receiver\purchase_files\BOM\BOM-csv-receiver.csv
+DocumentPath=exports\receiver\assembly_files\BOM\BOM-csv-receiver.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=exports\receiver\purchase_files\BOM\BOM-pdf-receiver.pdf
+DocumentPath=exports\receiver\purchase_files\BOM\BOM-csv-receiver.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
@@ -289,83 +289,99 @@ DocumentPath=Project Outputs for receiver\Design Rule Check - receiver.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=exports\receiver\Gerber\receiver-RoundHoles.TXT
+DocumentPath=exports\receiver\assembly_files\Pick Place\Pick Place for receiver.txt
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=exports\receiver\Gerber\receiver-SlotHoles.TXT
+DocumentPath=exports\receiver\Gerber\receiver-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=exports\receiver\Gerber\receiver.DRR
+DocumentPath=exports\receiver\Gerber\receiver-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=exports\receiver\Gerber\receiver.EXTREP
+DocumentPath=exports\receiver\Gerber\receiver.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=exports\receiver\Gerber\receiver.GBL
+DocumentPath=exports\receiver\assembly_files\AutoCAD PCB\receiver.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=exports\receiver\Gerber\receiver.GBO
+DocumentPath=exports\receiver\Gerber\receiver.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=exports\receiver\Gerber\receiver.GBP
+DocumentPath=exports\receiver\Gerber\receiver.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=exports\receiver\Gerber\receiver.GBS
+DocumentPath=exports\receiver\Gerber\receiver.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=exports\receiver\Gerber\receiver.GD1
+DocumentPath=exports\receiver\Gerber\receiver.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=exports\receiver\Gerber\receiver.GTL
+DocumentPath=exports\receiver\Gerber\receiver.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=exports\receiver\Gerber\receiver.GTO
+DocumentPath=exports\receiver\Gerber\receiver.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=exports\receiver\Gerber\receiver.GTP
+DocumentPath=exports\receiver\Gerber\receiver.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=exports\receiver\Gerber\receiver.GTS
+DocumentPath=exports\receiver\Gerber\receiver.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=..\..\exports\hub\validation_reports\DiffReport\receiver.html
+DocumentPath=exports\receiver\Gerber\receiver.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=..\..\exports\hub\validation_reports\ECCC\receiver.html
+DocumentPath=exports\receiver\Gerber\receiver.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=..\..\exports\hub\validation_reports\ERC\receiver.html
+DocumentPath=..\..\exports\hub\validation_reports\DiffReport\receiver.html
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=..\..\exports\hub\validation_reports\FootprintComparison\receiver.html
+DocumentPath=..\..\exports\hub\validation_reports\ECCC\receiver.html
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=exports\receiver\Gerber\receiver.LDP
+DocumentPath=..\..\exports\hub\validation_reports\ERC\receiver.html
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=exports\receiver\Gerber\receiver.REP
+DocumentPath=..\..\exports\hub\validation_reports\FootprintComparison\receiver.html
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=exports\receiver\Gerber\receiver.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=exports\receiver\assembly_files\Copy Files\boards\receiver.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=exports\receiver\Gerber\receiver.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=exports\receiver\Gerber\receiver.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=exports\receiver\assembly_files\ExportSTEP\receiver.step
 DItemRevisionGUID=
 
 [Configuration1]

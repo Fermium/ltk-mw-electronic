@@ -311,11 +311,11 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=exports\transmitter\purchase_files\BOM\BOM-csv-transmitter.csv
+DocumentPath=exports\transmitter\assembly_files\BOM\BOM-csv-transmitter.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=exports\transmitter\purchase_files\BOM\BOM-pdf-transmitter.pdf
+DocumentPath=exports\transmitter\purchase_files\BOM\BOM-csv-transmitter.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
@@ -323,67 +323,83 @@ DocumentPath=Project Outputs for transmitter\Design Rule Check - transmitter.htm
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=exports\transmitter\Gerber\transmitter-RoundHoles.TXT
+DocumentPath=exports\transmitter\assembly_files\Pick Place\Pick Place for transmitter.txt
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=exports\transmitter\Gerber\transmitter-SlotHoles.TXT
+DocumentPath=exports\transmitter\Gerber\transmitter-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=exports\transmitter\Gerber\transmitter.DRR
+DocumentPath=exports\transmitter\Gerber\transmitter-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=exports\transmitter\Gerber\transmitter.EXTREP
+DocumentPath=exports\transmitter\Gerber\transmitter.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBL
+DocumentPath=exports\transmitter\assembly_files\AutoCAD PCB\transmitter.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBO
+DocumentPath=exports\transmitter\Gerber\transmitter.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBP
+DocumentPath=exports\transmitter\Gerber\transmitter.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBS
+DocumentPath=exports\transmitter\Gerber\transmitter.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=exports\transmitter\Gerber\transmitter.GD1
+DocumentPath=exports\transmitter\Gerber\transmitter.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTL
+DocumentPath=exports\transmitter\Gerber\transmitter.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTO
+DocumentPath=exports\transmitter\Gerber\transmitter.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTS
+DocumentPath=exports\transmitter\Gerber\transmitter.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=exports\transmitter\Gerber\transmitter.LDP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=exports\transmitter\Gerber\transmitter.REP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=exports\transmitter\Gerber\transmitter.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=exports\transmitter\assembly_files\Copy Files\boards\transmitter.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=exports\transmitter\Gerber\transmitter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=exports\transmitter\Gerber\transmitter.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=exports\transmitter\assembly_files\ExportSTEP\transmitter.step
 DItemRevisionGUID=
 
 [Configuration1]
