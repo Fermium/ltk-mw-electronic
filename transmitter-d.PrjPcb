@@ -206,10 +206,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UIKPKSSC
 
 [Document11]
-DocumentPath=boards\receiver-d.PCBDwf
+DocumentPath=altium-libraries\imported\issus\Footprints\Diodes.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -226,7 +226,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=boards\receiver-d.OutJob
+DocumentPath=altium-libraries\imported\addons\Libs_RRutledge 2013-12-23-2\PBL - SMD Packages.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -243,7 +243,58 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=boards\receiver-d.PcbDoc
+DocumentPath=boards\transmitter-d.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=boards\transmitter-d.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=boards\transmitter-d.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JGVJCJVE
+
+[Document16]
+DocumentPath=boards\transmitter-d.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -259,14 +310,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GFNNWSHG
 
-[Document14]
-DocumentPath=boards\receiver-d.SchDoc
+[Document17]
+DocumentPath=altium-libraries\imported\issus\Footprints\Connectors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -274,110 +325,94 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KHRHWMHK
+DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=exports\receiver\assembly_files\BOM\BOM-csv-receiver.csv
+DocumentPath=exports\transmitter\assembly_files\BOM\BOM-csv-transmitter.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for receiver\Design Rule Check - receiver.html
+DocumentPath=Project Outputs for transmitter\Design Rule Check - transmitter.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=exports\receiver\assembly_files\Pick Place\Pick Place for receiver.txt
+DocumentPath=exports\transmitter\assembly_files\Pick Place\Pick Place for transmitter.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=exports\receiver\Gerber\receiver-RoundHoles.TXT
+DocumentPath=exports\transmitter\Gerber\transmitter-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=exports\receiver\Gerber\receiver-SlotHoles.TXT
+DocumentPath=exports\transmitter\Gerber\transmitter-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=exports\receiver\Gerber\receiver.DRR
+DocumentPath=exports\transmitter\Gerber\transmitter.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=exports\receiver\assembly_files\AutoCAD PCB\receiver.DWG
+DocumentPath=exports\transmitter\assembly_files\AutoCAD PCB\transmitter.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=exports\receiver\Gerber\receiver.EXTREP
+DocumentPath=exports\transmitter\Gerber\transmitter.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=exports\receiver\Gerber\receiver.GBL
+DocumentPath=exports\transmitter\Gerber\transmitter.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=exports\receiver\Gerber\receiver.GBO
+DocumentPath=exports\transmitter\Gerber\transmitter.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=exports\receiver\Gerber\receiver.GBP
+DocumentPath=exports\transmitter\Gerber\transmitter.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=exports\receiver\Gerber\receiver.GBS
+DocumentPath=exports\transmitter\Gerber\transmitter.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=exports\receiver\Gerber\receiver.GD1
+DocumentPath=exports\transmitter\Gerber\transmitter.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=exports\receiver\Gerber\receiver.GTL
+DocumentPath=exports\transmitter\Gerber\transmitter.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=exports\receiver\Gerber\receiver.GTO
+DocumentPath=exports\transmitter\Gerber\transmitter.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=exports\receiver\Gerber\receiver.GTP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=exports\receiver\Gerber\receiver.GTS
+DocumentPath=exports\transmitter\Gerber\transmitter.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=..\..\exports\hub\validation_reports\DiffReport\receiver.html
+DocumentPath=exports\transmitter\Gerber\transmitter.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=..\..\exports\hub\validation_reports\ECCC\receiver.html
+DocumentPath=exports\transmitter\assembly_files\Copy Files\boards\transmitter.PcbDoc
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=..\..\exports\hub\validation_reports\ERC\receiver.html
+DocumentPath=exports\transmitter\Gerber\transmitter.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=..\..\exports\hub\validation_reports\FootprintComparison\receiver.html
+DocumentPath=exports\transmitter\Gerber\transmitter.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=exports\receiver\Gerber\receiver.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=exports\receiver\assembly_files\Copy Files\boards\receiver.PcbDoc
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=exports\receiver\Gerber\receiver.REP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=exports\receiver\Gerber\receiver.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=exports\receiver\assembly_files\ExportSTEP\receiver.step
+DocumentPath=exports\transmitter\assembly_files\ExportSTEP\transmitter.step
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1021,6 +1056,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad SDT Schematic
+OutputName12=Orcad SDT Schematic (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Protel PCB 2.8 ASCII
+OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

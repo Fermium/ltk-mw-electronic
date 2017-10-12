@@ -10,5 +10,3 @@ ProjectPath=receiver-d.PrjPcb
 ProjectPath=transmitter-d.PrjPcb
 [Project5]
 ProjectPath=transmitter.PrjPcb
-[Project6]
-ProjectPath=..\Hall-electronic-2\boards\main\main_board.PrjPcb
