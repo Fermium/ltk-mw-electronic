@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for transmitter
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -400,86 +400,94 @@ DocumentPath=exports\transmitter\assembly_files\BOM\BOM-csv-transmitter.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for transmitter\Design Rule Check - transmitter.html
+DocumentPath=exports\transmitter\purchase_files\BOM\BOM-csv-transmitter.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=exports\transmitter\assembly_files\Pick Place\Pick Place for transmitter.txt
+DocumentPath=exports\transmitter\purchase_files\BOM\BOM-pdf-transmitter.pdf
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=exports\transmitter\Gerber\transmitter-RoundHoles.TXT
+DocumentPath=Project Outputs for transmitter\Design Rule Check - transmitter.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=exports\transmitter\Gerber\transmitter-SlotHoles.TXT
+DocumentPath=exports\transmitter\assembly_files\Pick Place\Pick Place for transmitter.txt
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=exports\transmitter\Gerber\transmitter.DRR
+DocumentPath=exports\transmitter\Gerber\transmitter-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=exports\transmitter\assembly_files\AutoCAD PCB\transmitter.DWG
+DocumentPath=exports\transmitter\Gerber\transmitter-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=exports\transmitter\Gerber\transmitter.EXTREP
+DocumentPath=exports\transmitter\Gerber\transmitter.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBL
+DocumentPath=exports\transmitter\assembly_files\AutoCAD PCB\transmitter.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBO
+DocumentPath=exports\transmitter\Gerber\transmitter.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBP
+DocumentPath=exports\transmitter\Gerber\transmitter.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=exports\transmitter\Gerber\transmitter.GBS
+DocumentPath=exports\transmitter\Gerber\transmitter.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=exports\transmitter\Gerber\transmitter.GD1
+DocumentPath=exports\transmitter\Gerber\transmitter.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTL
+DocumentPath=exports\transmitter\Gerber\transmitter.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTO
+DocumentPath=exports\transmitter\Gerber\transmitter.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=exports\transmitter\Gerber\transmitter.GTS
+DocumentPath=exports\transmitter\Gerber\transmitter.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=exports\transmitter\Gerber\transmitter.LDP
+DocumentPath=exports\transmitter\Gerber\transmitter.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=exports\transmitter\assembly_files\Copy Files\boards\transmitter.PcbDoc
+DocumentPath=exports\transmitter\Gerber\transmitter.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=exports\transmitter\Gerber\transmitter.REP
+DocumentPath=exports\transmitter\Gerber\transmitter.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=exports\transmitter\Gerber\transmitter.RUL
+DocumentPath=exports\transmitter\assembly_files\Copy Files\boards\transmitter.PcbDoc
 DItemRevisionGUID=
 
 [GeneratedDocument22]
+DocumentPath=exports\transmitter\Gerber\transmitter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=exports\transmitter\Gerber\transmitter.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=exports\transmitter\assembly_files\ExportSTEP\transmitter.step
 DItemRevisionGUID=
 
@@ -494,7 +502,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=-1
+AutoOpenFile=0
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
@@ -530,7 +538,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for transmitter
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
