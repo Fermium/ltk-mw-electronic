@@ -28,10 +28,9 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for receiver-d
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -276,130 +275,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHRHWMHK
 
-[GeneratedDocument1]
-DocumentPath=exports\receiver-d\assembly_files\BOM\BOM-csv-receiver-d.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=exports\receiver-d\purchase_files\BOM\BOM-csv-receiver-d.csv
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for receiver-d\Design Rule Check - receiver-d.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for receiver\Design Rule Check - receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=exports\receiver-d\assembly_files\Pick Place\Pick Place for receiver-d.txt
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=exports\receiver-d\Gerber\receiver-d-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=exports\receiver-d\Gerber\receiver-d-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=exports\receiver-d\assembly_files\AutoCAD PCB\receiver-d.DWG
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.html
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=exports\receiver-d\validation_reports\DRC\receiver-d.html
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=exports\receiver-d\validation_reports\ERC\receiver-d.html
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=exports\receiver-d\assembly_files\Copy Files\boards\receiver-d.PcbDoc
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.REP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=exports\receiver-d\Gerber\receiver-d.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=exports\receiver-d\assembly_files\ExportSTEP\receiver-d.step
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=..\..\exports\hub\validation_reports\DiffReport\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=..\..\exports\hub\validation_reports\ECCC\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=..\..\exports\hub\validation_reports\ERC\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=..\..\exports\hub\validation_reports\FootprintComparison\receiver.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -411,7 +286,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for receiver-d
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -622,24 +497,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Software Platform Print
-OutputName11=Software Platform Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Wave Print
-OutputName12=Wave Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=WaveSim Print
-OutputName13=WaveSim Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1144,6 +1001,27 @@ Type87=1
 Type88=1
 Type89=1
 Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
 
 [Difference Levels]
 Type1=1
@@ -1195,6 +1073,19 @@ Type46=1
 Type47=1
 Type48=1
 Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1310,6 +1201,14 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=2
+AlternateItemFail=3
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
