@@ -292,118 +292,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=exports\receiver\assembly_files\BOM\BOM-csv-receiver.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=exports\receiver\purchase_files\BOM\BOM-csv-receiver.csv
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for receiver\Design Rule Check - receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=exports\receiver\assembly_files\Pick Place\Pick Place for receiver.txt
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=exports\receiver\Gerber\receiver-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=exports\receiver\Gerber\receiver-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=exports\receiver\Gerber\receiver.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=exports\receiver\assembly_files\AutoCAD PCB\receiver.DWG
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=exports\receiver\Gerber\receiver.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=exports\receiver\Gerber\receiver.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=exports\receiver\Gerber\receiver.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=exports\receiver\Gerber\receiver.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=exports\receiver\Gerber\receiver.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=exports\receiver\Gerber\receiver.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=exports\receiver\Gerber\receiver.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=exports\receiver\Gerber\receiver.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=exports\receiver\Gerber\receiver.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=exports\receiver\Gerber\receiver.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=exports\receiver\validation_reports\DiffReport\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=exports\receiver\validation_reports\DRC\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=exports\receiver\validation_reports\ECCC\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=exports\receiver\validation_reports\ERC\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=exports\receiver\validation_reports\FootprintComparison\receiver.html
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=exports\receiver\Gerber\receiver.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=exports\receiver\assembly_files\Copy Files\boards\receiver.PcbDoc
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=exports\receiver\Gerber\receiver.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=exports\receiver\Gerber\receiver.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=exports\receiver\assembly_files\ExportSTEP\receiver.step
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -420,7 +308,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -507,57 +395,27 @@ OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=SIMetrixNetlist
-OutputName18=SIMetrix
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=SIMPLISNetlist
-OutputName19=SIMPLIS
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=TangoNetlist
-OutputName20=Tango Netlist
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=TelesisNetlist
-OutputName21=Telesis Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=WireListNetlist
-OutputName22=WireList Netlist
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -630,7 +488,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -652,7 +510,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -724,7 +582,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -761,7 +619,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -941,7 +799,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -980,7 +838,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1031,7 +889,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother MFC-J6520DW
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
