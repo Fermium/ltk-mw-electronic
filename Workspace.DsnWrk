@@ -1,6 +1,6 @@
 [ProjectGroup]
 Version=1.0
-[Project1]
+[Project3]
 ProjectPath=receiver.PrjPcb
-[Project2]
+[Project4]
 ProjectPath=transmitter.PrjPcb
