@@ -1,3 +1,0 @@
-[submodule "presskit"]
-	path = presskit
-	url = git@github.com:fermiumlabs/presskit.git

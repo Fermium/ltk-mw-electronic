@@ -1,6 +1,4 @@
 [ProjectGroup]
 Version=1.0
-[Project3]
-ProjectPath=receiver.PrjPcb
-[Project4]
-ProjectPath=transmitter.PrjPcb
+[Project1]
+ProjectPath=Combined.PrjPCB
