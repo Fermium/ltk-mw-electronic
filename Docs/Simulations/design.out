@@ -1,0 +1,163 @@
+*****************************************************************************************
+***                                                                                   ***
+*** Elements Version 8.20h (x86) - 07/04/2019 17:28                                   ***
+*** Platform: Windows 10                                                              ***
+*** Architecture: x64                                                                 ***
+*** Serial Number:                                                                    ***
+*** User:                                                                             ***
+***                                                                                   ***
+*** TITLE:   *                                                                       ***
+*** NETLIST: \\mac\Home\Work\FermiumLABS\ltk-mw-electronic\Docs\Simulations\design.net***
+***                                                                                   ***
+*****************************************************************************************
+
+********************************************************************************
+***                                                                          ***
+***                                Input Deck                                ***
+***                                                                          ***
+********************************************************************************
+
+.options allowdivzero=1
+.options initCondMode=2
+.options icres=0.002
+.options inhibitAttoISource=1
+#SIMETRIX
+X1 V3_P R1_P V1_P 0 X1_out LM324 pinnames: inp inn vsp vsn out
+V1 V1_P 0 5
+V2 V2_P 0 AC 1
+R1 R1_P C1_P 1K
+V3 V3_P 0 5
+R2 X1_out R1_P 100k
+R3 C2_P 0 1K
+C1 C1_P V2_P 100n   
+C2 C2_P X1_out 10u   
+.AC DEC 25 1k 1Meg
+.SUBCKT LM324    1 2 3 4 5
+*
+C1   11 12 5.544E-12
+C2    6  7 20.00E-12
+DC    5 53 DX
+DE   54  5 DX
+DLP  90 91 DX
+DLN  92 90 DX
+DP    4  3 DX
+EGND 99  0 POLY(2) (3,0) (4,0) 0 .5 .5
+FB    7 99 POLY(5) VB VC VE VLP VLN 0 15.91E6 -20E6 20E6 20E6 -20E6
+GA    6  0 11 12 125.7E-6
+GCM   0  6 10 99 7.067E-9
+IEE   3 10 DC 10.04E-6
+HLIM 90  0 VLIM 1K
+Q1   11  2 13 QX
+Q2   12  1 14 QX
+R2    6  9 100.0E3
+RC1   4 11 7.957E3
+RC2   4 12 7.957E3
+RE1  13 10 2.773E3
+RE2  14 10 2.773E3
+REE  10 99 19.92E6
+RO1   8  5 50
+RO2   7 99 50
+RP    3  4 30.31E3
+VB    9  0 DC 0
+VC 3 53 DC 2.100
+VE   54  4 DC .6
+VLIM  7  8 DC 0
+VLP  91  0 DC 40
+VLN   0 92 DC 40
+.MODEL DX D(IS=800.0E-18)
+.MODEL QX PNP(IS=800.0E-18 BF=250)
+.ENDS
+*
+* File: LM3302.5_1
+*
+* LM3302 VOLTAGE COMPARATOR "MACROMODEL" SUBCIRCUIT
+* CREATED USING PARTS VERSION 4.03 ON 03/09/90 AT 09:21
+* REV (N/A)
+* CONNECTIONS:   NON-INVERTING INPUT
+*                | INVERTING INPUT
+*                | | POSITIVE POWER SUPPLY
+*                | | | NEGATIVE POWER SUPPLY
+*                | | | | OPEN COLLECTOR OUTPUT
+*                | | | | |
+
+********************************************************************************
+***                                                                          ***
+*** Starting AC analysis at 17:28                                            ***
+***                                                                          ***
+*** Analysis card: .AC DEC 25 1k 1Meg                                        ***
+***                                                                          ***
+********************************************************************************
+********************************************************************************
+***                                                                          ***
+***                            Simulation Options                            ***
+***                                                                          ***
+********************************************************************************
+RELTOL                    0.001
+ABSTOL                    1e-12
+VNTOL                     1e-06
+POINTTOL                  0.001
+TEMPERATURE               27C
+GMIN                      1e-12
+Matrix Solver             UF KLU Version 1.1
+
+
+
+********************************************************************************
+***                                                                          ***
+***                             Device parameters                            ***
+***                                                                          ***
+********************************************************************************
+Model parameters for devices of type Diode
+==========================================
+Model:       X1.DX        
+
+is           800a         
+
+
+Model parameters for devices of type BJT
+========================================
+Model:       X1.QX        
+
+_is          800a         
+bf           250          
+
+
+Analysis statistics
+===================
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 18
+Transient iterations = 0
+Transient timepoints = 0
+Accepted timepoints = 0
+Total analysis time = 0.11
+Transient time = 0
+Matrix reordering time = 0
+L-U decomposition time = 0
+Matrix solve time = 0
+Load time = 0
+Transient L-U decomp time = 0
+Transient solve time = 0
+Circuit build time = 0.015
+Simulator initialise time = 0
+Data write time = 0
+Convergence test time = 0
+LTE time = 0
+JI2 Iterations = 18
+Diag. GMIN stepping iterations = 0
+Junc. GMIN stepping iterations = 0
+Source stepping iterations = 0
+PTA iterations = 0
+Number of matrix fill ins = -15
+Number of initial matrix elements = 108
+Circuit equations = 34
+State vector size = 122
+Number of write buffer faults = 0
+
+Run statistics
+==============
+
+Netlist read in time = 0.032
+Total run time = 0.172 seconds
+Analysis concluded 07/04/2019 17:28

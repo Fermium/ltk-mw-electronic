@@ -1,0 +1,13 @@
+* 
+*#SIMETRIX
+X1 V3_P R1_P V1_P 0 X1_out LM324 pinnames: inp inn vsp vsn out
+V1 V1_P 0 5
+V2 V2_P 0 AC 1
+R1 R1_P C1_P 1K
+V3 V3_P 0 5
+R2 X1_out R1_P 100k
+R3 C2_P 0 1K
+C1 C1_P V2_P 100n   
+C2 C2_P X1_out 10u   
+.AC DEC 25 1k 1Meg
+
