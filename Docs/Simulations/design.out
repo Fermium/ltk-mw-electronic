@@ -1,15 +1,15 @@
-*****************************************************************************************
-***                                                                                   ***
-*** Elements Version 8.20h (x86) - 07/04/2019 17:28                                   ***
-*** Platform: Windows 10                                                              ***
-*** Architecture: x64                                                                 ***
-*** Serial Number:                                                                    ***
-*** User:                                                                             ***
-***                                                                                   ***
-*** TITLE:   *                                                                       ***
-*** NETLIST: \\mac\Home\Work\FermiumLABS\ltk-mw-electronic\Docs\Simulations\design.net***
-***                                                                                   ***
-*****************************************************************************************
+************************************************************************************************
+***                                                                                          ***
+*** SIMetrix/SIMPLIS Elite with DVM and Verilog for SIMPLIS Version 8.20a (x64) - 22/04/2019 17:09***
+*** Platform: Windows 10                                                                     ***
+*** Architecture: x64                                                                        ***
+*** Serial Number:                                                                           ***
+*** User:                                                                                    ***
+***                                                                                          ***
+*** TITLE:   * \\mac\Home\Work\FermiumLABS\ltk-mw-electronic\Docs\Simulations\receiver.sxsch***
+*** NETLIST: \\mac\Home\Work\FermiumLABS\ltk-mw-electronic\Docs\Simulations\design.net       ***
+***                                                                                          ***
+************************************************************************************************
 
 ********************************************************************************
 ***                                                                          ***
@@ -19,19 +19,30 @@
 
 .options allowdivzero=1
 .options initCondMode=2
-.options icres=0.002
+.options icres=0.001
 .options inhibitAttoISource=1
 #SIMETRIX
-X1 V3_P R1_P V1_P 0 X1_out LM324 pinnames: inp inn vsp vsn out
-V1 V1_P 0 5
-V2 V2_P 0 AC 1
-R1 R1_P C1_P 1K
-V3 V3_P 0 5
-R2 X1_out R1_P 100k
-R3 C2_P 0 1K
-C1 C1_P V2_P 100n   
-C2 C2_P X1_out 10u   
-.AC DEC 25 1k 1Meg
+X1 5V R1_P 12V 0 R2_P LM324 pinnames: inp inn vsp vsn out
+V1 12V 0 12
+X2 5V R7_N 12V 0 X2_out LM324 pinnames: inp inn vsp vsn out
+V2 V2_P 0 5 Sin(0 20m 1k 0 0)
+X3 5V R3_N 12V 0 X3_out LM324 pinnames: inp inn vsp vsn out
+R1 R1_P C1_P 1k
+V3 5V 0 5
+R2 R2_P R1_P 100k
+R3 D1_N R3_N 1K
+R4 R3_N R2_P 1K
+R5 D1_N 0 100k
+R6 R7_N R2_P 100k
+R7 X2_out R7_N 10k
+D1 X3_out D1_N D1N4148
+R9 R2_P 0 1K
+R10 C4_P 0 10k
+C1 C1_P V2_P 10u   
+C2 D1_N 0 33u   
+C4 C4_P X2_out 10u   
+.TRAN 0 1 0 20u
+*.AC DEC 25 1 1Meg
 .SUBCKT LM324    1 2 3 4 5
 *
 C1   11 12 5.544E-12
@@ -79,12 +90,20 @@ VLN   0 92 DC 40
 *                | | | NEGATIVE POWER SUPPLY
 *                | | | | OPEN COLLECTOR OUTPUT
 *                | | | | |
+.model D1n4148 D(IS=1.6f RS=1.0 IKF=22m CJO=3p M=0.3 VJ=0.75 ISR=2.6n 
++ BV=70 TT=20n)
+**************************************************************************
+* jrw 17.2.94.
+* bav18, bav19, bav20, bav21 - DO-35
+* bas19, bas20, bas21 - SOT23
+* bav100, bav101, bav102, bav103 -SOD80C
+* Data from Philips SC01 1992
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting AC analysis at 17:28                                            ***
+*** Starting Transient analysis at 17:09                                     ***
 ***                                                                          ***
-*** Analysis card: .AC DEC 25 1k 1Meg                                        ***
+*** Analysis card: .TRAN 0 1 0 20u                                           ***
 ***                                                                          ***
 ********************************************************************************
 ********************************************************************************
@@ -109,17 +128,25 @@ Matrix Solver             UF KLU Version 1.1
 ********************************************************************************
 Model parameters for devices of type Diode
 ==========================================
-Model:       X1.DX        
+Model:       D1N4148      X1.DX        X2.DX        X3.DX        
 
-is           800a         
+bv           70           0            0            0            
+cjo          3p           0            0            0            
+ikf          22m          0            0            0            
+is           1.6f         800a         800a         800a         
+isr          2.6n         0            0            0            
+m            300m         500m         500m         500m         
+rs           1            0            0            0            
+tt           20n          0            0            0            
+vj           750m         1            1            1            
 
 
 Model parameters for devices of type BJT
 ========================================
-Model:       X1.QX        
+Model:       X1.QX        X2.QX        X3.QX        
 
-_is          800a         
-bf           250          
+_is          800a         800a         800a         
+bf           250          250          250          
 
 
 Analysis statistics
@@ -127,11 +154,11 @@ bf           250
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 18
-Transient iterations = 0
-Transient timepoints = 0
-Accepted timepoints = 0
-Total analysis time = 0.11
+Total iterations = 217086
+Transient iterations = 217072
+Transient timepoints = 72259
+Accepted timepoints = 66288
+Total analysis time = 4.625
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -139,25 +166,25 @@ Matrix solve time = 0
 Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
-Circuit build time = 0.015
+Circuit build time = 0
 Simulator initialise time = 0
 Data write time = 0
 Convergence test time = 0
 LTE time = 0
-JI2 Iterations = 18
+JI2 Iterations = 14
 Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -15
-Number of initial matrix elements = 108
-Circuit equations = 34
-State vector size = 122
+Number of matrix fill ins = -34
+Number of initial matrix elements = 300
+Circuit equations = 86
+State vector size = 360
 Number of write buffer faults = 0
 
 Run statistics
 ==============
 
-Netlist read in time = 0.032
-Total run time = 0.172 seconds
-Analysis concluded 07/04/2019 17:28
+Netlist read in time = 0.062
+Total run time = 4.718 seconds
+Analysis concluded 22/04/2019 17:09

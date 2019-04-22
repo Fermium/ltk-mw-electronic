@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Combined
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -111,40 +111,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MXTSPQLN
 
 [Document5]
-DocumentPath=Assembly.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
-DocumentPath=Fabrication.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=Combined2019.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,8 +127,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SROIDWTK
 
-[Document8]
-DocumentPath=..\altium-libraries\frmdblib\Symbols\UUID\B8DB4B19-8E9C-4F46-A390-7A352E041443.SchLib
+[Document6]
+DocumentPath=000_Dev.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -176,10 +142,44 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BIRUZDFX
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=001_DevMechanical.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=002_DevSchematics.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\altium-libraries\frmdblib\Symbols\UUID\2A82CEC3-2DF5-4DD3-9AA0-8AD0F8FDAF27.SchLib
+DocumentPath=010_Purchase.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -193,10 +193,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SAZDAYAK
+DocumentUniqueId=
 
 [Document10]
-DocumentPath=..\altium-libraries\frmdblib\Symbols\GENERIC\GENERIC_GRAPHIC.SchLib
+DocumentPath=020_Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -210,14 +210,82 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EQCEGANF
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=030_Assembly.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=MECHANICAL.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=PCBA.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=PCBM.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=MASTER
 AllowFabrication=0
 ParameterCount=0
-VariationCount=9
+VariationCount=15
 Variation1=Designator=R?|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
 Variation2=Designator=C?|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
 Variation3=Designator=C?|UniqueId=\VHXAADGW|Kind=1|AlternatePart= 
@@ -227,6 +295,12 @@ Variation6=Designator=R?|UniqueId=\YIXKMKSX|Kind=1|AlternatePart=
 Variation7=Designator=C?|UniqueId=\ZIMKONOG|Kind=1|AlternatePart= 
 Variation8=Designator=R?|UniqueId=\NIRXCADE|Kind=1|AlternatePart= 
 Variation9=Designator=R?|UniqueId=\PVKNKUZJ|Kind=1|AlternatePart= 
+Variation10=Designator=R?|UniqueId=\MRBBJZBB|Kind=1|AlternatePart= 
+Variation11=Designator=R?|UniqueId=\TGVKPLOV|Kind=1|AlternatePart= 
+Variation12=Designator=C?|UniqueId=\TPAGZLUK|Kind=1|AlternatePart= 
+Variation13=Designator=R?|UniqueId=\JPGIHKQX|Kind=1|AlternatePart= 
+Variation14=Designator=R3|UniqueId=\HZKXVCIE|Kind=1|AlternatePart= 
+Variation15=Designator=R?|UniqueId=\NEMLDATY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -300,7 +374,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Combined
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -417,6 +491,11 @@ OutputName22=SIMPLIS
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -433,6 +512,11 @@ OutputName2=SIMPLIS
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
+OutputType3=AdvSimNetlist
+OutputName3=Mixed Sim
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1528,137 +1612,131 @@ SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=frmdblib.DbLib/Components
-ComponentDesignItemID0=fermiumlabs-logo
-ComponentSymbolReference0=fermiumlabs-logo
+ComponentLibraryIdentifier0=frmdblib.DbLib/public.fermiumlabs_all_pivoted
+ComponentDesignItemID0=02841f84-ac15-41b5-9e17-915f8f067828
+ComponentSymbolReference0=GENERIC_C
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID1=02841f84-ac15-41b5-9e17-915f8f067828
+ComponentDesignItemID1=0eca2548-3630-4fea-a3d5-94248c1cae74
 ComponentSymbolReference1=GENERIC_C
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID2=0eca2548-3630-4fea-a3d5-94248c1cae74
-ComponentSymbolReference2=GENERIC_C
+ComponentDesignItemID2=1a28df19-6d3e-4a71-836c-f22920f8e8ab
+ComponentSymbolReference2=GENERIC_C_ELEC
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID3=1a28df19-6d3e-4a71-836c-f22920f8e8ab
-ComponentSymbolReference3=GENERIC_C_ELEC
+ComponentDesignItemID3=1ffbe5a9-0884-4740-bdad-20a6a98400e6
+ComponentSymbolReference3=GENERIC_C
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID4=1ffbe5a9-0884-4740-bdad-20a6a98400e6
-ComponentSymbolReference4=GENERIC_C
+ComponentDesignItemID4=21a85167-c328-42f7-a52e-365842c6dad3
+ComponentSymbolReference4=B8DB4B19-8E9C-4F46-A390-7A352E041443
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID5=21a85167-c328-42f7-a52e-365842c6dad3
-ComponentSymbolReference5=B8DB4B19-8E9C-4F46-A390-7A352E041443
+ComponentDesignItemID5=33900555-dbb4-4b72-871f-952983a59b08
+ComponentSymbolReference5=2A82CEC3-2DF5-4DD3-9AA0-8AD0F8FDAF27
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID6=33900555-dbb4-4b72-871f-952983a59b08
-ComponentSymbolReference6=2A82CEC3-2DF5-4DD3-9AA0-8AD0F8FDAF27
+ComponentDesignItemID6=518be146-f87c-4403-9352-4982c61a9251
+ComponentSymbolReference6=GENERIC_NPN_BEC
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID7=518be146-f87c-4403-9352-4982c61a9251
-ComponentSymbolReference7=GENERIC_NPN_BEC
+ComponentDesignItemID7=5e920700-75df-48e3-84dd-8f9f777caed8
+ComponentSymbolReference7=GENERIC_D
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID8=5e920700-75df-48e3-84dd-8f9f777caed8
-ComponentSymbolReference8=GENERIC_D
+ComponentDesignItemID8=6ae227f9-847f-4766-8522-e11a83531204
+ComponentSymbolReference8=GENERIC_R
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID9=6ae227f9-847f-4766-8522-e11a83531204
+ComponentDesignItemID9=76af10b3-9d85-4b5c-a2d6-26cc74f432f7
 ComponentSymbolReference9=GENERIC_R
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID10=76af10b3-9d85-4b5c-a2d6-26cc74f432f7
-ComponentSymbolReference10=GENERIC_R
+ComponentDesignItemID10=80507a24-5d7c-4cf5-953e-f54832d54564
+ComponentSymbolReference10=46E41D2F-79BD-46AC-B778-70B2D50A946A
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID11=80507a24-5d7c-4cf5-953e-f54832d54564
-ComponentSymbolReference11=46E41D2F-79BD-46AC-B778-70B2D50A946A
+ComponentDesignItemID11=93242766-ba1d-462d-b58f-ce1dfc4129c8
+ComponentSymbolReference11=GENERIC_R
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID12=93242766-ba1d-462d-b58f-ce1dfc4129c8
+ComponentDesignItemID12=a678220f-9e9d-4863-a833-9993504f723c
 ComponentSymbolReference12=GENERIC_R
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID13=a678220f-9e9d-4863-a833-9993504f723c
-ComponentSymbolReference13=GENERIC_R
+ComponentDesignItemID13=a9622f6c-68f2-4f08-abc9-76f38977fdd3
+ComponentSymbolReference13=A45114BD-821B-4F2C-91DA-34880533DC1E
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID14=a9622f6c-68f2-4f08-abc9-76f38977fdd3
-ComponentSymbolReference14=A45114BD-821B-4F2C-91DA-34880533DC1E
+ComponentDesignItemID14=b53db51a-1725-412b-9039-fa7a45c7c438
+ComponentSymbolReference14=34A1CD0B-E262-46EF-B9F1-39CB809C308F
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID15=b53db51a-1725-412b-9039-fa7a45c7c438
-ComponentSymbolReference15=34A1CD0B-E262-46EF-B9F1-39CB809C308F
+ComponentDesignItemID15=c9e30ae8-9d5b-4135-a079-b1147da846d8
+ComponentSymbolReference15=GENERIC_L
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID16=c9e30ae8-9d5b-4135-a079-b1147da846d8
-ComponentSymbolReference16=GENERIC_L
+ComponentDesignItemID16=d16ab88a-2543-469a-8940-7b800b633548
+ComponentSymbolReference16=3A1FF759-9FC3-4379-AD1F-76F749A75FB1
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID17=d16ab88a-2543-469a-8940-7b800b633548
-ComponentSymbolReference17=3A1FF759-9FC3-4379-AD1F-76F749A75FB1
+ComponentDesignItemID17=d6266fd0-7428-4fb9-a062-338cdce926fd
+ComponentSymbolReference17=GENERIC_D_TVS_BI
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID18=d6266fd0-7428-4fb9-a062-338cdce926fd
-ComponentSymbolReference18=GENERIC_D_TVS_BI
+ComponentDesignItemID18=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
+ComponentSymbolReference18=Header 2
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID19=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
-ComponentSymbolReference19=Header 2
+ComponentDesignItemID19=fd64863e-487f-4688-b264-696c0ba5456b
+ComponentSymbolReference19=FCB39772-D6AF-4D61-BC58-A46A50428B6B
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID20=fd64863e-487f-4688-b264-696c0ba5456b
-ComponentSymbolReference20=FCB39772-D6AF-4D61-BC58-A46A50428B6B
+ComponentLibraryIdentifier20=frmdblib.DbLib
+ComponentDesignItemID20=f0e19a38-18de-4253-8da2-aebb0c4083bd
+ComponentSymbolReference20=687D5558-C857-4646-9F75-B643D2B4D9DF
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=frmdblib.DbLib
-ComponentDesignItemID21=f0e19a38-18de-4253-8da2-aebb0c4083bd
-ComponentSymbolReference21=687D5558-C857-4646-9F75-B643D2B4D9DF
-ComponentUpdate21=1
-ComponentIsDeviceSheet21=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
