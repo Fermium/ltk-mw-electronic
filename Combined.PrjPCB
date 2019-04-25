@@ -162,23 +162,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=010_Purchase.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
 DocumentPath=020_Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=030_Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -212,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=MECHANICAL.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -229,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=PCBA.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=PCBM.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=Combined.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -282,36 +265,25 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
-Description=MASTER
+Description=AC OUT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=19
-Variation1=Designator=R?|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
-Variation2=Designator=C?|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
-Variation3=Designator=C?|UniqueId=\VHXAADGW|Kind=1|AlternatePart= 
-Variation4=Designator=C?|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
-Variation5=Designator=C?|UniqueId=\BFJWKKJP|Kind=1|AlternatePart= 
-Variation6=Designator=R?|UniqueId=\YIXKMKSX|Kind=1|AlternatePart= 
-Variation7=Designator=C?|UniqueId=\ZIMKONOG|Kind=1|AlternatePart= 
-Variation8=Designator=R?|UniqueId=\NIRXCADE|Kind=1|AlternatePart= 
-Variation9=Designator=R?|UniqueId=\PVKNKUZJ|Kind=1|AlternatePart= 
-Variation10=Designator=R?|UniqueId=\MRBBJZBB|Kind=1|AlternatePart= 
-Variation11=Designator=R?|UniqueId=\TGVKPLOV|Kind=1|AlternatePart= 
-Variation12=Designator=C?|UniqueId=\TPAGZLUK|Kind=1|AlternatePart= 
-Variation13=Designator=R?|UniqueId=\JPGIHKQX|Kind=1|AlternatePart= 
-Variation14=Designator=R3|UniqueId=\HZKXVCIE|Kind=1|AlternatePart= 
-Variation15=Designator=R?|UniqueId=\NEMLDATY|Kind=1|AlternatePart= 
-Variation16=Designator=R11|UniqueId=\JRZMRTOJ|Kind=0|AlternatePart= 
-Variation17=Designator=D3|UniqueId=\ITKIUYDX|Kind=1|AlternatePart= 
-Variation18=Designator=R?|UniqueId=\JNADWFOJ|Kind=1|AlternatePart= 
-Variation19=Designator=R?|UniqueId=\VARUSXBL|Kind=1|AlternatePart= 
+VariationCount=12
+Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
+Variation2=Designator=C31|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
+Variation3=Designator=C17|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
+Variation4=Designator=C15|UniqueId=\BFJWKKJP|Kind=1|AlternatePart= 
+Variation5=Designator=R16|UniqueId=\NIRXCADE|Kind=1|AlternatePart= 
+Variation6=Designator=R18|UniqueId=\PVKNKUZJ|Kind=1|AlternatePart= 
+Variation7=Designator=R3|UniqueId=\TGVKPLOV|Kind=1|AlternatePart= 
+Variation8=Designator=R15|UniqueId=\HZKXVCIE|Kind=1|AlternatePart= 
+Variation9=Designator=R7|UniqueId=\NEMLDATY|Kind=1|AlternatePart= 
+Variation10=Designator=D3|UniqueId=\ITKIUYDX|Kind=1|AlternatePart= 
+Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=1|AlternatePart= 
+Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=
-Value=
-
-[Parameter2]
 Name=ProjectTitle
 Value=LTK-MW TX/RX 2019 Q1
 
@@ -321,7 +293,13 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=3
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=000_Dev.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=001_DevMechanical.OutJob
+DocumentReferenceClass3=DocumentReference
+OutputJobFileName3=002_DevSchematics.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -333,7 +311,7 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Fabrication.OutJob
+OutputJobFileName1=020_Fabrication.OutJob
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
@@ -345,7 +323,19 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly.OutJob
+OutputJobFileName1=030_Assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly AC OUT
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=AC OUT
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=030_Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -1517,28 +1507,34 @@ ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID19=d6266fd0-7428-4fb9-a062-338cdce926fd
-ComponentSymbolReference19=GENERIC_D_TVS_BI
+ComponentDesignItemID19=d1abe19f-3fed-4f20-b2ed-afc0ffbc6628
+ComponentSymbolReference19=GENERIC_GRAPHIC
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID20=f0e19a38-18de-4253-8da2-aebb0c4083bd
-ComponentSymbolReference20=687D5558-C857-4646-9F75-B643D2B4D9DF
+ComponentDesignItemID20=d6266fd0-7428-4fb9-a062-338cdce926fd
+ComponentSymbolReference20=GENERIC_D_TVS_BI
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID21=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
-ComponentSymbolReference21=Header 2
+ComponentDesignItemID21=f0e19a38-18de-4253-8da2-aebb0c4083bd
+ComponentSymbolReference21=687D5558-C857-4646-9F75-B643D2B4D9DF
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID22=fd64863e-487f-4688-b264-696c0ba5456b
-ComponentSymbolReference22=FCB39772-D6AF-4D61-BC58-A46A50428B6B
+ComponentDesignItemID22=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
+ComponentSymbolReference22=Header 2
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=frmdblib.DbLib/public.fermiumlabs_all_pivoted
+ComponentDesignItemID23=fd64863e-487f-4688-b264-696c0ba5456b
+ComponentSymbolReference23=FCB39772-D6AF-4D61-BC58-A46A50428B6B
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1597,65 +1593,68 @@ ParameterUpdate20=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0FBEB40D-2B6D-43C7-945F-A2D40A82B953
+ModelName0=0B1556B7-A534-4801-B57D-01EFA34B1205
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=25B19271-CD6F-4BC8-A99B-F617D566DC9C
+ModelName1=0FBEB40D-2B6D-43C7-945F-A2D40A82B953
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=34355DA5-B1DA-47C2-A88A-ECF82120A4F7
+ModelName2=25B19271-CD6F-4BC8-A99B-F617D566DC9C
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=3924B366-8672-45E9-B0BE-62DACC24E783
+ModelName3=34355DA5-B1DA-47C2-A88A-ECF82120A4F7
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=5394DE47-A0E8-4329-8464-7791B7C19310
+ModelName4=3924B366-8672-45E9-B0BE-62DACC24E783
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=7EF2B92C-0FC9-4C85-B662-5CEC65BFCCC4
+ModelName5=5394DE47-A0E8-4329-8464-7791B7C19310
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=837683EF-1F56-469C-A674-7E5DB74A526F
+ModelName6=7EF2B92C-0FC9-4C85-B662-5CEC65BFCCC4
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=9B4F62E8-D129-4139-99C7-3E5580D0C4B3
+ModelName7=837683EF-1F56-469C-A674-7E5DB74A526F
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=CAP 0603_1608
+ModelName8=9B4F62E8-D129-4139-99C7-3E5580D0C4B3
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=CAP 0805_2012
+ModelName9=CAP 0603_1608
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=E733EFB9-FE91-4AE9-9197-29251971C3DC
+ModelName10=CAP 0805_2012
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=F0972D8A-C5C0-4A84-836D-A9666EE65C2D
+ModelName11=E733EFB9-FE91-4AE9-9197-29251971C3DC
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=FER 0603_1608
+ModelName12=F0972D8A-C5C0-4A84-836D-A9666EE65C2D
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=FIDUCIAL-IPC-7351A
+ModelName13=FER 0603_1608
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=RES 0603_1608
+ModelName14=FIDUCIAL-IPC-7351A
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=RES 0603_1608 RF
+ModelName15=RES 0603_1608
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=SOD-123
+ModelName16=RES 0603_1608 RF
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SOD523F
+ModelName17=SOD-123
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=TI SOIC-8 D
+ModelName18=SOD523F
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=TI SOT-23-3 DBZ
+ModelName19=TI SOIC-8 D
 ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=TI SOT-23-3 DBZ
+ModelUpdate20=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1777,28 +1776,34 @@ ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID19=d6266fd0-7428-4fb9-a062-338cdce926fd
-ComponentSymbolReference19=GENERIC_D_TVS_BI
+ComponentDesignItemID19=d1abe19f-3fed-4f20-b2ed-afc0ffbc6628
+ComponentSymbolReference19=GENERIC_GRAPHIC
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID20=f0e19a38-18de-4253-8da2-aebb0c4083bd
-ComponentSymbolReference20=687D5558-C857-4646-9F75-B643D2B4D9DF
+ComponentDesignItemID20=d6266fd0-7428-4fb9-a062-338cdce926fd
+ComponentSymbolReference20=GENERIC_D_TVS_BI
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID21=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
-ComponentSymbolReference21=Header 2
+ComponentDesignItemID21=f0e19a38-18de-4253-8da2-aebb0c4083bd
+ComponentSymbolReference21=687D5558-C857-4646-9F75-B643D2B4D9DF
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=frmdblib.DbLib/public.fermiumlabs_all_pivoted
-ComponentDesignItemID22=fd64863e-487f-4688-b264-696c0ba5456b
-ComponentSymbolReference22=FCB39772-D6AF-4D61-BC58-A46A50428B6B
+ComponentDesignItemID22=fb9043ef-1dd5-4a9c-8c1a-da0c667690ac
+ComponentSymbolReference22=Header 2
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=frmdblib.DbLib/public.fermiumlabs_all_pivoted
+ComponentDesignItemID23=fd64863e-487f-4688-b264-696c0ba5456b
+ComponentSymbolReference23=FCB39772-D6AF-4D61-BC58-A46A50428B6B
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
