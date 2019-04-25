@@ -21,7 +21,7 @@ TargetOutputMedium=FabricationData
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=Fabrication
-TargetPrinter=\\SERVER4\TOSHIBA 2500ac ut colore
+TargetPrinter=Brother MFC-J6520DW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -221,7 +221,7 @@ Configuration7_Item1=Record=LayerStackReportView|Units=Metric
 OutputType8=PCBDrawing
 OutputName8=SPECIFICATIONS
 OutputCategory8=Documentation
-OutputDocumentPath8=58880_02_PCBM.PCBDwf
+OutputDocumentPath8=PCBM.PCBDwf
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
@@ -247,7 +247,7 @@ Configuration9_Item1=Record=NonNativeFiles
 [PublishSettings]
 OutputFilePath2=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for Combined
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=
@@ -301,7 +301,7 @@ PDFACompliance3=Disabled
 PDFVersion3=Default
 OutputFilePath4=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for 58880
+OutputBasePath4=Project Outputs for Combined
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Name]

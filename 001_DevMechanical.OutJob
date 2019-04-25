@@ -21,7 +21,7 @@ TargetOutputMedium=DevMechanicalData
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=\\SERVER4\TOSHIBA 2500ac ut colore
+TargetPrinter=Brother MFC-J6520DW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=SPECIFICATIONS
 OutputMedium1_Type=Publish
@@ -30,7 +30,7 @@ OutputMedium2_Type=GeneratedFiles
 OutputType1=PCBDrawing
 OutputName1=MECHANICAL_SPECIFICATIONS
 OutputCategory1=Documentation
-OutputDocumentPath1=58880_00_MECHANICAL.PCBDwf
+OutputDocumentPath1=MECHANICAL.PCBDwf
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=1
@@ -85,7 +85,7 @@ Configuration5_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|C
 [PublishSettings]
 OutputFilePath1=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\SPECIFICATIONS\
 ReleaseManaged1=1
-OutputBasePath1=Project Outputs for 58880
+OutputBasePath1=Project Outputs for Combined
 OutputPathMedia1=
 OutputPathMediaValue1=
 OutputPathOutputer1=
@@ -112,7 +112,7 @@ PDFACompliance1=Disabled
 PDFVersion1=Default
 OutputFilePath2=T:\Elettronica\Archivio Schede\58850\PRJ\Project Outputs for 58850\DevMechanicalData\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for 58880
+OutputBasePath2=Project Outputs for Combined
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=
