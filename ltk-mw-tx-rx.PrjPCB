@@ -229,6 +229,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QLBSGHQG
 
+[Document12]
+DocumentPath=000_Dev.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=001_DevMechanical.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=AC OUT
@@ -263,11 +297,11 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=3
 DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=000_Dev.OutJob
+OutputJobFileName1=002_DevSchematics.OutJob
 DocumentReferenceClass2=DocumentReference
-OutputJobFileName2=001_DevMechanical.OutJob
+OutputJobFileName2=000_Dev.OutJob
 DocumentReferenceClass3=DocumentReference
-OutputJobFileName3=002_DevSchematics.OutJob
+OutputJobFileName3=001_DevMechanical.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
