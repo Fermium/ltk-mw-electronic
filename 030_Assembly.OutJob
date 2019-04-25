@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=030_Assembly.OutJob
 Description=
 TargetOutputMedium=AssemblyData
 VariantName=[No Variations]
 VariantScope=2
-CurrentConfigurationName=Assembly
+CurrentConfigurationName=
 TargetPrinter=Brother MFC-J6520DW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -111,13 +111,13 @@ Configuration6_Item3=Part Number=True|Layer=True
 Configuration6_Name4=OutputConfigurationParameter1
 Configuration6_Item4=??
 Configuration6_Name5=VisibleOrder
-Configuration6_Item5=Line #=60|Bom Notes=100|Description=374|Designator=657|Layer=60|Manufacturer 1=173|Manufacturer Part Number 1=175|Manufacturer 2=108|Manufacturer Part Number 2=175|Manufacturer 3=108|Manufacturer Part Number 3=175|Manufacturer 4=108|Manufacturer Part Number 4=175|Manufacturer 5=108|Manufacturer Part Number 5=175
+Configuration6_Item5=Line #=60|Quantity=100|Bom Notes=100|Description=374|Designator=657|Layer=60|Manufacturer 1=173|Manufacturer Part Number 1=175|Manufacturer 2=108|Manufacturer Part Number 2=175|Manufacturer 3=108|Manufacturer Part Number 3=175|Manufacturer 4=108|Manufacturer Part Number 4=175|Manufacturer 5=108|Manufacturer Part Number 5=175
 Configuration6_Name6=VisibleOrder_Base
 Configuration6_Item6=Line #=71|Reel SKU=94|Description=382|Comment=278|Quantity=84|Designator=97|MEXAL_NOTES=466|Layer=100
 Configuration6_Name7=VisibleOrder_Consolidated
 Configuration6_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|TargetPrice=100|Manufacturer 1=133|Manufacturer Part Number 1=186|Manufacturer Lifecycle 1=164|Supplier 1=92|Supplier Part Number 1=159|Supplier Unit Price 1=144|Supplier Subtotal 1=139
 Configuration6_Name8=VisibleOrder_Flat
-Configuration6_Item8=Line #=60|Bom Notes=100|Description=374|Designator=657|Layer=60|Manufacturer 1=173|Manufacturer Part Number 1=175|Manufacturer 2=108|Manufacturer Part Number 2=175|Manufacturer 3=108|Manufacturer Part Number 3=175|Manufacturer 4=108|Manufacturer Part Number 4=175|Manufacturer 5=108|Manufacturer Part Number 5=175
+Configuration6_Item8=Line #=60|Quantity=100|Bom Notes=100|Description=374|Designator=657|Layer=60|Manufacturer 1=173|Manufacturer Part Number 1=175|Manufacturer 2=108|Manufacturer Part Number 2=175|Manufacturer 3=108|Manufacturer Part Number 3=175|Manufacturer 4=108|Manufacturer Part Number 4=175|Manufacturer 5=108|Manufacturer Part Number 5=175
 OutputType7=Gerber
 OutputName7=Paste Mask Gerbers
 OutputCategory7=Fabrication
@@ -144,9 +144,9 @@ Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|Components=0|HoleMode=1|Units=0|OutputFormat=0|OnlyVisibleLayers=False|ZeroWidthLines=0
 
 [PublishSettings]
-OutputFilePath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
+OutputFilePath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\AssemblyData\
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for Combined
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Name]
@@ -159,7 +159,7 @@ OutputFileNameSpecial2=
 OpenOutput2=0
 OutputFilePath3=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
 ReleaseManaged3=1
-OutputBasePath3=
+OutputBasePath3=Project Outputs for Combined
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=
@@ -186,7 +186,7 @@ PDFACompliance3=Disabled
 PDFVersion3=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
+RelativeOutputPath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\AssemblyData\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0
