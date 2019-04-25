@@ -308,8 +308,12 @@ Variation19=Designator=R?|UniqueId=\VARUSXBL|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
+Name=
+Value=
+
+[Parameter2]
 Name=ProjectTitle
-Value=LTK-MW TRANSMITTER AND RECEIVER 2019 Q1
+Value=LTK-MW TX/RX 2019 Q1
 
 [Configuration1]
 Name=Sources
