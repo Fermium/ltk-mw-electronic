@@ -295,13 +295,7 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=3
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=002_DevSchematics.OutJob
-DocumentReferenceClass2=DocumentReference
-OutputJobFileName2=000_Dev.OutJob
-DocumentReferenceClass3=DocumentReference
-OutputJobFileName3=001_DevMechanical.OutJob
+OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -340,6 +334,22 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=030_Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+
+[Configuration5]
+Name=Dev
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=3
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=002_DevSchematics.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=000_Dev.OutJob
+DocumentReferenceClass3=DocumentReference
+OutputJobFileName3=001_DevMechanical.OutJob
+ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
+ConfigurationType=Custom
 
 [Generic_SmartPDF]
 AutoOpenFile=-1

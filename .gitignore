@@ -30,3 +30,5 @@ scripts/__pycache__/
 *.dwl
 *.dwl2
 *.sxsch.lck
+._.DS_Store
+.DS_Store
