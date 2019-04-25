@@ -19,7 +19,7 @@ Name=002_DevSchematics.OutJob
 Description=
 TargetOutputMedium=DevelopmentSchematics
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=2
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
@@ -71,12 +71,12 @@ Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath1=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\DevelopmentSchematics\
+OutputFilePath1=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
 ReleaseManaged1=1
 OutputBasePath1=Project Outputs for Combined
 OutputPathMedia1=
 OutputPathMediaValue1=
-OutputPathOutputer1=
+OutputPathOutputer1=[Output Name]
 OutputPathOutputerPrefix1=
 OutputPathOutputerValue1=
 OutputFileName1=Job1.PDF
@@ -100,6 +100,6 @@ PDFACompliance1=Disabled
 PDFVersion1=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\DevelopmentSchematics\
+RelativeOutputPath1=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
 OpenOutputs1=0
 

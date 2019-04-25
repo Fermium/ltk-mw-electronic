@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Combined
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -268,7 +268,7 @@ UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=AC OUT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
+VariationCount=14
 Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
 Variation2=Designator=C31|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
 Variation3=Designator=C17|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
@@ -281,6 +281,8 @@ Variation9=Designator=R7|UniqueId=\NEMLDATY|Kind=1|AlternatePart=
 Variation10=Designator=D3|UniqueId=\ITKIUYDX|Kind=1|AlternatePart= 
 Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=1|AlternatePart= 
 Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=1|AlternatePart= 
+Variation13=Designator=U4|UniqueId=\YYQJJMOL|Kind=1|AlternatePart= 
+Variation14=Designator=U10|UniqueId=\MTTQWDJN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -376,7 +378,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Combined
 
 [OutputGroup1]
 Name=Netlist Outputs

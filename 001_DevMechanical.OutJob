@@ -19,7 +19,7 @@ Name=001_DevMechanical.OutJob
 Description=
 TargetOutputMedium=DevMechanicalData
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=2
 CurrentConfigurationName=
 TargetPrinter=Brother MFC-J6520DW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -28,7 +28,7 @@ OutputMedium1_Type=Publish
 OutputMedium2=DevMechanicalData
 OutputMedium2_Type=GeneratedFiles
 OutputType1=PCBDrawing
-OutputName1=MECHANICAL_SPECIFICATIONS
+OutputName1=SPECIFICATIONS_MECHANICAL
 OutputCategory1=Documentation
 OutputDocumentPath1=MECHANICAL.PCBDwf
 OutputVariantName1=
@@ -83,7 +83,7 @@ Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|Components=0|HoleMode=1|Units=1|OutputFormat=0|OnlyVisibleLayers=False|ZeroWidthLines=0
 
 [PublishSettings]
-OutputFilePath1=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\SPECIFICATIONS\
+OutputFilePath1=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
 ReleaseManaged1=1
 OutputBasePath1=Project Outputs for Combined
 OutputPathMedia1=
@@ -110,7 +110,7 @@ ShowComponentParameters1=1
 GlobalBookmarks1=1
 PDFACompliance1=Disabled
 PDFVersion1=Default
-OutputFilePath2=T:\Elettronica\Archivio Schede\58850\PRJ\Project Outputs for 58850\DevMechanicalData\
+OutputFilePath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\DevMechanicalData\
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for Combined
 OutputPathMedia2=[Media Name]
@@ -125,9 +125,9 @@ OutputFileNameSpecial2=
 OpenOutput2=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=T:\Elettronica\Archivio Schede\58920\PRJ\Project Outputs for 58920\SPECIFICATIONS\
+RelativeOutputPath1=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\
 OpenOutputs1=0
-RelativeOutputPath2=T:\Elettronica\Archivio Schede\58850\PRJ\Project Outputs for 58850\DevMechanicalData\
+RelativeOutputPath2=C:\altium-projects\ltk-mw-electronic\Project Outputs for Combined\DevMechanicalData\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=1
