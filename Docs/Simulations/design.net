@@ -1,0 +1,24 @@
+* \\mac\Home\Work\FermiumLABS\ltk-mw-electronic\Docs\Simulations\receiver.sxsch
+*#SIMETRIX
+X1 5V R1_P 12V 0 R2_P LM324 pinnames: inp inn vsp vsn out
+V1 12V 0 12
+X2 5V R7_N 12V 0 X2_out LM324 pinnames: inp inn vsp vsn out
+V2 V2_P 0 5 Sin(0 20m 1k 0 0)
+X3 5V R3_N 12V 0 X3_out LM324 pinnames: inp inn vsp vsn out
+R1 R1_P C1_P 1k
+V3 5V 0 5
+R2 R2_P R1_P 100k
+R3 D1_N R3_N 1K
+R4 R3_N R2_P 1K
+R5 D1_N 0 100k
+R6 R7_N R2_P 100k
+R7 X2_out R7_N 10k
+D1 X3_out D1_N D1N4148
+R9 R2_P 0 1K
+R10 C4_P 0 10k
+C1 C1_P V2_P 10u   
+C2 D1_N 0 33u   
+C4 C4_P X2_out 10u   
+.TRAN 0 1 0 20u
+*.AC DEC 25 1 1Meg
+
