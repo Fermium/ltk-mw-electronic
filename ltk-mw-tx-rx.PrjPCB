@@ -268,19 +268,19 @@ UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=AC OUT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=22
-Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
+VariationCount=29
+Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=0|AlternatePart= 
 Variation2=Designator=C31|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
 Variation3=Designator=C17|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
 Variation4=Designator=C15|UniqueId=\BFJWKKJP|Kind=1|AlternatePart= 
 Variation5=Designator=R16|UniqueId=\NIRXCADE|Kind=1|AlternatePart= 
 Variation6=Designator=R18|UniqueId=\PVKNKUZJ|Kind=1|AlternatePart= 
 Variation7=Designator=R3|UniqueId=\TGVKPLOV|Kind=1|AlternatePart= 
-Variation8=Designator=R15|UniqueId=\HZKXVCIE|Kind=1|AlternatePart= 
+Variation8=Designator=R15|UniqueId=\HZKXVCIE|Kind=0|AlternatePart= 
 Variation9=Designator=R7|UniqueId=\NEMLDATY|Kind=1|AlternatePart= 
 Variation10=Designator=D3|UniqueId=\ITKIUYDX|Kind=1|AlternatePart= 
 Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=1|AlternatePart= 
-Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=1|AlternatePart= 
+Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=0|AlternatePart= 
 Variation13=Designator=U4|UniqueId=\YYQJJMOL|Kind=1|AlternatePart= 
 Variation14=Designator=U10|UniqueId=\MTTQWDJN|Kind=1|AlternatePart= 
 Variation15=Designator=R17|UniqueId=\VWAPYKCR|Kind=1|AlternatePart= 
@@ -291,6 +291,13 @@ Variation19=Designator=C7|UniqueId=\DOMSFBYR|Kind=1|AlternatePart=
 Variation20=Designator=C8|UniqueId=\PRHQWVIF|Kind=1|AlternatePart= 
 Variation21=Designator=R4|UniqueId=\OCLLQGLG|Kind=1|AlternatePart= 
 Variation22=Designator=R2|UniqueId=\EFAYTEQN|Kind=1|AlternatePart= 
+Variation23=Designator=R?|UniqueId=\VWNMFTDW|Kind=1|AlternatePart= 
+Variation24=Designator=D6|UniqueId=\UUGNIABU|Kind=0|AlternatePart= 
+Variation25=Designator=R27|UniqueId=\WTHLHFIF|Kind=1|AlternatePart= 
+Variation26=Designator=R32|UniqueId=\XNZNDOPZ|Kind=0|AlternatePart= 
+Variation27=Designator=C11|UniqueId=\VKYHBPRN|Kind=1|AlternatePart= 
+Variation28=Designator=C14|UniqueId=\QKAQIITE|Kind=1|AlternatePart= 
+Variation29=Designator=D1|UniqueId=\VNIIXWPH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
