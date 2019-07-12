@@ -268,7 +268,7 @@ UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=AC OUT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=18
 Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=1|AlternatePart= 
 Variation2=Designator=C31|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
 Variation3=Designator=C17|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
@@ -283,6 +283,10 @@ Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=1|AlternatePart=
 Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=1|AlternatePart= 
 Variation13=Designator=U4|UniqueId=\YYQJJMOL|Kind=1|AlternatePart= 
 Variation14=Designator=U10|UniqueId=\MTTQWDJN|Kind=1|AlternatePart= 
+Variation15=Designator=R17|UniqueId=\VWAPYKCR|Kind=1|AlternatePart= 
+Variation16=Designator=D4|UniqueId=\UNEESNQH|Kind=1|AlternatePart= 
+Variation17=Designator=C18|UniqueId=\AWPDAZTN|Kind=1|AlternatePart= 
+Variation18=Designator=R19|UniqueId=\CZEXMDHD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -1037,36 +1041,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
