@@ -151,7 +151,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -168,7 +168,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -219,7 +219,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -268,7 +268,7 @@ UniqueID=C7E2E2FA-9267-4093-959A-25D714605A36
 Description=AC OUT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=29
+VariationCount=31
 Variation1=Designator=R29|UniqueId=\LSUSRGLQ|Kind=0|AlternatePart= 
 Variation2=Designator=C31|UniqueId=\IIRBQPQY|Kind=1|AlternatePart= 
 Variation3=Designator=C17|UniqueId=\ZQRCXRDD|Kind=1|AlternatePart= 
@@ -279,7 +279,7 @@ Variation7=Designator=R3|UniqueId=\TGVKPLOV|Kind=1|AlternatePart=
 Variation8=Designator=R15|UniqueId=\HZKXVCIE|Kind=0|AlternatePart= 
 Variation9=Designator=R7|UniqueId=\NEMLDATY|Kind=1|AlternatePart= 
 Variation10=Designator=D3|UniqueId=\ITKIUYDX|Kind=1|AlternatePart= 
-Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=1|AlternatePart= 
+Variation11=Designator=R10|UniqueId=\JNADWFOJ|Kind=0|AlternatePart= 
 Variation12=Designator=R11|UniqueId=\VARUSXBL|Kind=0|AlternatePart= 
 Variation13=Designator=U4|UniqueId=\YYQJJMOL|Kind=1|AlternatePart= 
 Variation14=Designator=U10|UniqueId=\MTTQWDJN|Kind=1|AlternatePart= 
@@ -297,12 +297,14 @@ Variation25=Designator=R27|UniqueId=\WTHLHFIF|Kind=1|AlternatePart=
 Variation26=Designator=R32|UniqueId=\XNZNDOPZ|Kind=0|AlternatePart= 
 Variation27=Designator=C11|UniqueId=\VKYHBPRN|Kind=1|AlternatePart= 
 Variation28=Designator=C14|UniqueId=\QKAQIITE|Kind=1|AlternatePart= 
-Variation29=Designator=D1|UniqueId=\VNIIXWPH|Kind=1|AlternatePart= 
+Variation29=Designator=D1|UniqueId=\VNIIXWPH|Kind=0|AlternatePart= 
+Variation30=Designator=R9|UniqueId=\YZLBAPXD|Kind=1|AlternatePart= 
+Variation31=Designator=D2|UniqueId=\MVJSDIAC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
 Name=ProjectTitle
-Value=LTK-MW TX/RX 2019 Q1
+Value=LTK-MW TX/RX 2019 Q2
 
 [Configuration1]
 Name=Sources
