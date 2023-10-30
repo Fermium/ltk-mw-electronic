@@ -1,0 +1,1143 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 13 3.3744095 0.97 180 N R11 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 3.4000001 0.97 90 N 1 3 1
+TOP 1 3.348819 0.97 90 N 9 31 2
+#
+# CMP 1
+CMP 13 1.95 0.59 0 N R24 1K ;0=1,1=0.0177
+PRP id '14794'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-071KL'
+PRP Part_Number 'a678220f-9e9d-4863-a833-9993504f723c'
+PRP Value '1K'
+TOP 0 1.9244094 0.59 270 N 28 21 1
+TOP 1 1.9755905 0.59 270 N 2 2 2
+#
+# CMP 2
+CMP 13 1.14 0.795 180 N R27 1K ;0=1,1=0.0177
+PRP id '14794'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-071KL'
+PRP Part_Number 'a678220f-9e9d-4863-a833-9993504f723c'
+PRP Value '1K'
+TOP 0 1.1655906 0.795 90 N 3 5 1
+TOP 1 1.1144095 0.795 90 N 8 13 2
+#
+# CMP 3
+CMP 14 1.14 0.8739989 180 N D7 1N4148W-TP ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Micro-Commercial-Components-MCC-1N4148W-TP_C779782019-04-06_215019.428643.pdf?Micro-Commercial-Components-MCC-1N4148W-TP_C77978.pdf'
+PRP id '14795'
+PRP Manufacturer_1 'MCC'
+PRP Manufacturer_Part_Number_1 '1N4148W-TP'
+PRP Part_Number '5e920700-75df-48e3-84dd-8f9f777caed8'
+TOP 0 1.0779922 0.8739989 90 N 4 6 1
+TOP 1 1.2020079 0.8739989 90 N 3 4 2
+#
+# CMP 4
+CMP 7 1.4934252 0.4815748 90 N C22 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.4934252 0.5081496 0 N 41 78 1
+TOP 1 1.4934252 0.455 0 N 43 10 2
+#
+# CMP 5
+CMP 7 1.95 0.695 270 N C28 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.95 0.6684252 180 N 28 17 1
+TOP 1 1.95 0.7215748 180 N 27 17 2
+#
+# CMP 6
+CMP 7 4.3098138 1.5792912 180 N C6 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 4.3363886 1.5792912 90 N 41 71 1
+TOP 1 4.283239 1.5792912 90 N 9 25 2
+#
+# CMP 7
+CMP 1 0.5091339 0.6290551 180 N U9 BCX56-16,115 ;0=1,1=0.0630
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Nexperia-BCX56-16-115_C1000262019-07-12_120358.7389322019-07-15_223409.342685.pdf?Nexperia-BCX56-16-115_C1000262019-07-12_120358.738932.pdf'
+PRP id '14824'
+PRP Manufacturer_1 'Nexperia'
+PRP Manufacturer_Part_Number_1 'BCX56-16,115'
+PRP Part_Number '0e502e05-00ae-4c6f-83a4-b2f55de2403a'
+TOP 0 0.58 0.57 90 N 7 3 1
+TOP 1 0.572126 0.6290551 90 N 8 14 2
+TOP 2 0.58 0.6881102 90 N 18 11 3
+#
+# CMP 8
+CMP 4 1.8029877 0.1774303 270 N P8 PJ-3900-04 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Korean-Hroparts-Elec-PJ-3900-04_C1518392019-04-10_231144.687617.pdf?Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf'
+PRP id '14793'
+PRP Manufacturer_1 'HRO Electronics'
+PRP Manufacturer_Part_Number_1 'PJ-3900-04'
+PRP Part_Number '80507a24-5d7c-4cf5-953e-f54832d54564'
+TOP 0 1.8029877 0.1774303 270 N 41 109 1
+TOP 1 1.9998381 0.1774303 270 N 0 16 1
+TOP 2 1.6061373 0.1774303 270 N 0 17 1
+TOP 3 1.6061373 0.3742807 270 N 0 15 2
+TOP 4 1.9998381 0.3742807 270 N 2 3 3
+TOP 5 1.7045625 0.3742807 270 N 41 110 4
+TOP 6 1.9014129 0.3742807 270 N 12 6 5
+#
+# CMP 9
+CMP 16 1.3434252 0.4815748 90 N U8 NE555DR ;0=1,1=0.0689
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Texas-Instruments-TI-NE555DR_C7593_22019-03-10_221020.033506.pdf?Texas-Instruments-TI-NE555DR_C7593 (2).pdf'
+PRP id '14787'
+PRP Manufacturer_1 'Texas Instruments'
+PRP Manufacturer_Part_Number_1 'NE555DR'
+PRP Part_Number 'd16ab88a-2543-469a-8940-7b800b633548'
+TOP 0 1.4184252 0.587874 0 N 41 93 1
+TOP 1 1.3684252 0.587874 0 N 29 8 2
+TOP 2 1.3184252 0.587874 0 N 6 3 3
+TOP 3 1.2684252 0.587874 0 N 43 18 4
+TOP 4 1.2684252 0.3752756 0 N 0 8 5
+TOP 5 1.3184252 0.3752756 0 N 29 9 6
+TOP 6 1.3684252 0.3752756 0 N 13 6 7
+TOP 7 1.4184252 0.3752756 0 N 43 19 8
+#
+# CMP 10
+CMP 2 0.8686902 0.7467436 0 N U7 LM324DT ;0=1,1=0.0689
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/STMicroelectronics-LM324DT_C710352019-04-06_191500.254110.pdf?STMicroelectronics-LM324DT_C71035.pdf'
+PRP id '14792'
+PRP Manufacturer_1 'ST Microelectronics'
+PRP Manufacturer_Part_Number_1 'LM324DT'
+PRP Part_Number '21a85167-c328-42f7-a52e-365842c6dad3'
+TOP 0 0.7614067 0.8967436 270 N 11 6 1
+TOP 1 0.7614067 0.8467436 270 N 11 5 2
+TOP 2 0.7614067 0.7967436 270 N 27 21 3
+TOP 3 0.7614067 0.7467436 270 N 8 12 4
+TOP 4 0.7614067 0.6967436 270 N 21 6 5
+TOP 5 0.7614067 0.6467436 270 N 18 10 6
+TOP 6 0.7614067 0.5967436 270 N 7 2 7
+TOP 7 0.9759736 0.5967436 270 N 10 2 8
+TOP 8 0.9759736 0.6467436 270 N 10 3 9
+TOP 9 0.9759736 0.6967436 270 N 43 16 10
+TOP 10 0.9759736 0.7467436 270 N 41 92 11
+TOP 11 0.9759736 0.7967436 270 N 43 17 12
+TOP 12 0.9759736 0.8467436 270 N 3 3 13
+TOP 13 0.9759736 0.8967436 270 N 4 5 14
+#
+# CMP 11
+CMP 6 1.375 0.755 270 N U6 74LVC1G00GV,125 ;0=1,1=0.0433
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Nexperia-74LVC1G00GV-125_C1313082019-04-06_222642.812294.pdf?Nexperia-74LVC1G00GV-125_C131308.pdf'
+PRP id '14797'
+PRP Manufacturer_1 'Nexperia'
+PRP Manufacturer_Part_Number_1 '74LVC1G00GV,125'
+PRP Part_Number '33900555-dbb4-4b72-871f-952983a59b08'
+TOP 0 1.3375984 0.7018504 180 N 6 2 1
+TOP 1 1.375 0.7018504 180 N 12 5 2
+TOP 2 1.4124015 0.7018504 180 N 41 91 3
+TOP 3 1.4124015 0.8081496 180 N 22 3 4
+TOP 4 1.3375984 0.8081496 180 N 43 15 5
+#
+# CMP 12
+CMP 9 0.950059 0.423189 180 N U5 AS78L05RTR-E1 ;0=1,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Diodes-Incorporated-AS78L05RTR-E1_C90471_12019-03-10_215252.941962.pdf?Diodes-Incorporated-AS78L05RTR-E1_C90471 (1).pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/KIA-Semicon-Tech-KIA78L05T_C90763_12019-03-10_215415.523371.pdf?KIA-Semicon-Tech-KIA78L05T_C90763 (1).pdf'
+PRP id '14783'
+PRP Manufacturer_1 'Diodes Inc.'
+PRP Manufacturer_2 'KIA Semicon Tech'
+PRP Manufacturer_Part_Number_1 'AS78L05RTR-E1'
+PRP Manufacturer_Part_Number_2 'KIA78L05T'
+PRP Part_Number 'fd64863e-487f-4688-b264-696c0ba5456b'
+TOP 0 1.021811 0.3641339 90 N 43 14 1
+TOP 1 1.0296851 0.423189 90 N 41 90 2
+TOP 2 1.021811 0.4822441 90 N 8 11 3
+#
+# CMP 13
+CMP 5 4.2036796 0.1777305 270 N P2 PJ-3900-04 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Korean-Hroparts-Elec-PJ-3900-04_C1518392019-04-10_231144.687617.pdf?Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf'
+PRP id '14793'
+PRP Manufacturer_1 'HRO Electronics'
+PRP Manufacturer_Part_Number_1 'PJ-3900-04'
+PRP Part_Number '80507a24-5d7c-4cf5-953e-f54832d54564'
+TOP 0 4.0068292 0.1777305 270 N 0 9 1
+TOP 1 4.40053 0.1777305 270 N 0 10 1
+TOP 2 4.2036796 0.1777305 270 N 41 98 1
+TOP 3 4.0068292 0.3745809 270 N 24 18 2
+TOP 4 4.40053 0.3745809 270 N 25 12 3
+TOP 5 4.1052544 0.3745809 270 N 0 12 4
+TOP 6 4.3021048 0.3745809 270 N 0 11 5
+#
+# CMP 14
+CMP 16 3.1363732 0.921035 270 N U3 SA612AD/01,112 ;0=1,1=0.0689
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/SA612AD-01118-Philips2019-03-11_010245.512050.pdf?SA612AD-01,118-Philips.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/NXP_Semiconductors-SA612AD_01118-datasheet_32019-03-11_010254.258631.pdf?NXP_Semiconductors-SA612AD_01,118-datasheet (3).pdf'
+PRP ComponentLink3Description 'RoHS Statement'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/NXP_Semiconductors-rohs_statement2019-03-11_010314.569812.pdf?NXP_Semiconductors-rohs_statement.pdf'
+PRP id '14790'
+PRP Manufacturer_1 'NXP Semiconductors'
+PRP Manufacturer_2 'NXP Semiconductors'
+PRP Manufacturer_Part_Number_1 'SA612AD/01,112'
+PRP Manufacturer_Part_Number_2 'SA612AD/01,118'
+PRP Part_Number 'a9622f6c-68f2-4f08-abc9-76f38977fdd3'
+TOP 0 3.0613732 0.8147358 180 N 35 3 1
+TOP 1 3.1113732 0.8147358 180 N 31 3 2
+TOP 2 3.1613732 0.8147358 180 N 41 89 3
+TOP 3 3.2113732 0.8147358 180 N 38 6 4
+TOP 4 3.2113732 1.0273342 180 N 0 7 5
+TOP 5 3.1613732 1.0273342 180 N 32 3 6
+TOP 6 3.1113732 1.0273342 180 N 0 6 7
+TOP 7 3.0613732 1.0273342 180 N 9 30 8
+#
+# CMP 15
+CMP 2 3.8976676 0.866035 0 N U2 LM324DT ;0=1,1=0.0689
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/STMicroelectronics-LM324DT_C710352019-04-06_191500.254110.pdf?STMicroelectronics-LM324DT_C71035.pdf'
+PRP id '14792'
+PRP Manufacturer_1 'ST Microelectronics'
+PRP Manufacturer_Part_Number_1 'LM324DT'
+PRP Part_Number '21a85167-c328-42f7-a52e-365842c6dad3'
+TOP 0 3.7903841 1.016035 270 N 16 19 1
+TOP 1 3.7903841 0.966035 270 N 15 9 2
+TOP 2 3.7903841 0.916035 270 N 14 6 3
+TOP 3 3.7903841 0.866035 270 N 42 13 4
+TOP 4 3.7903841 0.816035 270 N 9 29 5
+TOP 5 3.7903841 0.766035 270 N 23 9 6
+TOP 6 3.7903841 0.716035 270 N 5 6 7
+TOP 7 4.004951 0.716035 270 N 40 9 8
+TOP 8 4.004951 0.766035 270 N 17 6 9
+TOP 9 4.004951 0.816035 270 N 9 28 10
+TOP 10 4.004951 0.866035 270 N 41 88 11
+TOP 11 4.004951 0.916035 270 N 16 18 12
+TOP 12 4.004951 0.966035 270 N 33 7 13
+TOP 13 4.004951 1.016035 270 N 33 8 14
+#
+# CMP 16
+CMP 9 3.4580662 0.64024 0 N U1 AS78L05RTR-E1 ;0=1,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Diodes-Incorporated-AS78L05RTR-E1_C90471_12019-03-10_215252.941962.pdf?Diodes-Incorporated-AS78L05RTR-E1_C90471 (1).pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/KIA-Semicon-Tech-KIA78L05T_C90763_12019-03-10_215415.523371.pdf?KIA-Semicon-Tech-KIA78L05T_C90763 (1).pdf'
+PRP id '14783'
+PRP Manufacturer_1 'Diodes Inc.'
+PRP Manufacturer_2 'KIA Semicon Tech'
+PRP Manufacturer_Part_Number_1 'AS78L05RTR-E1'
+PRP Manufacturer_Part_Number_2 'KIA78L05T'
+PRP Part_Number 'fd64863e-487f-4688-b264-696c0ba5456b'
+TOP 0 3.3863142 0.6992951 270 N 9 27 1
+TOP 1 3.3784401 0.64024 270 N 41 87 2
+TOP 2 3.3863142 0.5811849 270 N 42 12 3
+#
+# CMP 17
+CMP 13 1.6555906 0.59 180 N R25 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 1.6811812 0.59 90 N 41 86 1
+TOP 1 1.6300001 0.59 90 N 28 20 2
+#
+# CMP 18
+CMP 13 1.69 0.785 0 N R26 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 1.6644094 0.785 270 N 41 85 1
+TOP 1 1.7155905 0.785 270 N 27 20 2
+#
+# CMP 19
+CMP 13 0.87 1.01 90 N R23 1K ;0=1,1=0.0177
+PRP id '14794'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-071KL'
+PRP Part_Number 'a678220f-9e9d-4863-a833-9993504f723c'
+PRP Value '1K'
+TOP 0 0.87 1.0355906 0 N 26 9 1
+TOP 1 0.87 0.9844095 0 N 21 5 2
+#
+# CMP 20
+CMP 13 0.8111529 1.0097413 270 N R22 1K ;0=1,1=0.0177
+PRP id '14794'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-071KL'
+PRP Part_Number 'a678220f-9e9d-4863-a833-9993504f723c'
+PRP Value '1K'
+TOP 0 0.8111529 0.9841507 180 N 11 4 1
+TOP 1 0.8111529 1.0353318 180 N 26 8 2
+#
+# CMP 21
+CMP 13 1.915 0.79 0 N R21 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 1.8894094 0.79 270 N 27 19 1
+TOP 1 1.9405905 0.79 270 N 43 13 2
+#
+# CMP 22
+CMP 13 1.265 0.765 90 N R20 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 1.265 0.7905906 0 N 43 12 1
+TOP 1 1.265 0.7394095 0 N 12 4 2
+#
+# CMP 23
+CMP 13 1.3434252 0.2915748 0 N R19 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 1.3178346 0.2915748 270 N 29 7 1
+TOP 1 1.3690157 0.2915748 270 N 13 5 2
+#
+# CMP 24
+CMP 13 1.4334252 0.2715748 270 N R18 1K ;0=1,1=0.0177
+PRP id '14794'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-071KL'
+PRP Part_Number 'a678220f-9e9d-4863-a833-9993504f723c'
+PRP Value '1K'
+TOP 0 1.4334252 0.2459842 180 N 13 4 1
+TOP 1 1.4334252 0.2971653 180 N 43 11 2
+#
+# CMP 25
+CMP 13 3.8676676 0.556035 90 N R17 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 3.8676676 0.5816256 0 N 41 84 1
+TOP 1 3.8676676 0.5304445 0 N 30 14 2
+#
+# CMP 26
+CMP 13 4.055 0.6137008 270 N R16 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.055 0.5881102 180 N 25 11 1
+TOP 1 4.055 0.6392913 180 N 30 13 2
+#
+# CMP 27
+CMP 13 3.6476676 0.696035 90 N R15 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 3.6476676 0.7216256 0 N 23 8 1
+TOP 1 3.6476676 0.6704445 0 N 16 17 2
+#
+# CMP 28
+CMP 13 4.115 0.6137008 270 N R14 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.115 0.5881102 180 N 24 17 1
+TOP 1 4.115 0.6392913 180 N 30 12 2
+#
+# CMP 29
+CMP 13 3.675 0.865 270 N R5 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 3.675 0.8394094 180 N 9 26 1
+TOP 1 3.675 0.8905905 180 N 14 4 2
+#
+# CMP 30
+CMP 13 3.5876676 0.696035 270 N R10 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 3.5876676 0.6704444 180 N 30 11 1
+TOP 1 3.5876676 0.7216255 180 N 23 7 2
+#
+# CMP 31
+CMP 13 3.4994095 0.97 180 N R12 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 3.5250001 0.97 90 N 15 6 1
+TOP 1 3.473819 0.97 90 N 1 2 2
+#
+# CMP 32
+CMP 13 4.295 0.6137008 270 N R8 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.295 0.5881102 180 N 25 10 1
+TOP 1 4.295 0.6392913 180 N 34 8 2
+#
+# CMP 33
+CMP 13 4.355 0.6137008 270 N R7 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.355 0.5881102 180 N 24 16 1
+TOP 1 4.355 0.6392913 180 N 34 7 2
+#
+# CMP 34
+CMP 13 3.4994095 0.885 180 N R6 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 3.5250001 0.885 90 N 14 5 1
+TOP 1 3.473819 0.885 90 N 37 6 2
+#
+# CMP 35
+CMP 13 3.605 0.985 90 N R9 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 3.605 1.0105906 0 N 16 15 1
+TOP 1 3.605 0.9594095 0 N 15 7 2
+#
+# CMP 36
+CMP 13 3.675 0.985 90 N R13 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 3.675 1.0105906 0 N 16 16 1
+TOP 1 3.675 0.9594095 0 N 15 8 2
+#
+# CMP 37
+CMP 13 4.175 0.6137008 270 N R4 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.175 0.5881102 180 N 25 9 1
+TOP 1 4.175 0.6392913 180 N 39 9 2
+#
+# CMP 38
+CMP 13 4.235 0.6137008 270 N R3 0 ;0=1,1=0.0177
+PRP id '11973'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603JR-070RL'
+PRP Part_Number '6ae227f9-847f-4766-8522-e11a83531204'
+PRP Value '0'
+TOP 0 4.235 0.5881102 180 N 24 15 1
+TOP 1 4.235 0.6392913 180 N 39 8 2
+#
+# CMP 39
+CMP 13 4.1076676 0.856035 270 N R2 100K ;0=1,1=0.0177
+PRP id '12746'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-07100KL'
+PRP Part_Number '76af10b3-9d85-4b5c-a2d6-26cc74f432f7'
+PRP Value '100K'
+TOP 0 4.1076676 0.8304444 180 N 17 5 1
+TOP 1 4.1076676 0.8816255 180 N 16 14 2
+#
+# CMP 40
+CMP 13 4.1076676 0.746035 270 N R1 10K ;0=1,1=0.0177
+PRP id '12101'
+PRP Manufacturer_1 'Yageo'
+PRP Manufacturer_Part_Number_1 'RC0603FR-0710KL'
+PRP Part_Number '93242766-ba1d-462d-b58f-ce1dfc4129c8'
+PRP Value '10K'
+TOP 0 4.1076676 0.7204444 180 N 40 8 1
+TOP 1 4.1076676 0.7716255 180 N 17 4 2
+#
+# CMP 41
+CMP 0 0.527824 1.877559 270 N P12 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 0.527824 1.877559 270 N 41 107 1
+TOP 1 0.527824 1.977559 270 N 41 108 2
+#
+# CMP 42
+CMP 0 1.8742807 1.777559 270 N P11 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 1.8742807 1.777559 270 N 41 105 1
+TOP 1 1.8742807 1.877559 270 N 41 106 2
+#
+# CMP 43
+CMP 0 1.8742807 3.2799212 270 N P10 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 1.8742807 3.2799212 270 N 0 13 1
+TOP 1 1.8742807 3.3799212 270 N 0 14 2
+#
+# CMP 44
+CMP 0 0.527824 3.2799213 270 N P9 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 0.527824 3.2799213 270 N 18 12 1
+TOP 1 0.527824 3.3799213 270 N 18 13 2
+#
+# CMP 45
+CMP 10 0.546985 0.4608949 270 N P7 DC-005A-20A ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Korean-Hroparts-Elec-DC-005A-20A_C191049_22019-03-10_214231.486078.pdf?Korean-Hroparts-Elec-DC-005A-20A_C191049 (2).pdf'
+PRP id '14780'
+PRP Manufacturer_1 'HRO Electronics'
+PRP Manufacturer_Part_Number_1 'DC-005A-20A'
+PRP Part_Number 'b53db51a-1725-412b-9039-fa7a45c7c438'
+TOP 0 0.546985 0.4608949 180 N 19 3 1
+TOP 1 0.546985 0.2168004 180 N 41 103 2
+TOP 2 0.7300559 0.3447532 90 N 41 104 3
+#
+# CMP 46
+CMP 0 4.2761205 3.2799213 90 N P6 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 4.2761205 3.2799213 90 N 41 101 1
+TOP 1 4.2761205 3.1799213 90 N 41 102 2
+#
+# CMP 47
+CMP 0 2.9296638 3.3799213 90 N P5 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 2.9296638 3.3799213 90 N 41 99 1
+TOP 1 2.9296638 3.2799213 90 N 41 100 2
+#
+# CMP 48
+CMP 0 2.9296638 1.8792127 90 N P4 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 2.9296638 1.8792127 90 N 36 8 1
+TOP 1 2.9296638 1.7792127 90 N 36 9 2
+#
+# CMP 49
+CMP 0 4.2761205 1.8775591 90 N P3 Z-211-0211-0021-001 ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C1243752019-04-06_220043.339618.pdf?Shenzhen-Cankemeng-Headers-Pins-1-2P-2-54mm-Straight-line_C124375.pdf'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://localhost:8080/static/files/Nextronics-Engineering-Z-211-0211-0021-001_C1521542019-04-06_220050.159477.pdf?Nextronics-Engineering-Z-211-0211-0021-001_C152154.pdf'
+PRP ComponentLink3Description 'Datasheet'
+PRP ComponentLink3URL 'http://localhost:8080/static/files/Changjiang-Connectors-A2541WV-2P_C2254772019-04-06_220058.382973.pdf?Changjiang-Connectors-A2541WV-2P_C225477.pdf'
+PRP id '14796'
+PRP Manufacturer_1 'Nextronics Engineering'
+PRP Manufacturer_2 'Changjiang Connectors'
+PRP Manufacturer_3 'Shenzhen Cankemeng'
+PRP Manufacturer_Part_Number_1 'Z-211-0211-0021-001'
+PRP Manufacturer_Part_Number_2 'A2541WV-2P'
+PRP Manufacturer_Part_Number_3 '---'
+PRP Part_Number 'fb9043ef-1dd5-4a9c-8c1a-da0c667690ac'
+TOP 0 4.2761205 1.8775591 90 N 9 32 1
+TOP 1 4.2761205 1.7775591 90 N 9 33 2
+#
+# CMP 50
+CMP 10 2.9490897 0.4606299 270 N P1 DC-005A-20A ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Korean-Hroparts-Elec-DC-005A-20A_C191049_22019-03-10_214231.486078.pdf?Korean-Hroparts-Elec-DC-005A-20A_C191049 (2).pdf'
+PRP id '14780'
+PRP Manufacturer_1 'HRO Electronics'
+PRP Manufacturer_Part_Number_1 'DC-005A-20A'
+PRP Part_Number 'b53db51a-1725-412b-9039-fa7a45c7c438'
+TOP 0 2.9490897 0.4606299 180 N 20 3 1
+TOP 1 2.9490897 0.2165354 180 N 41 96 2
+TOP 2 3.1321606 0.3444882 90 N 41 97 3
+#
+# CMP 51
+CMP 11 0.8 0.49 0 N L2 BLM18BD252SN1D ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Murata-Electronics-BLM18AG102SN1D_C858242019-03-10_220021.186607.pdf?Murata-Electronics-BLM18AG102SN1D_C85824.pdf'
+PRP id '14786'
+PRP Manufacturer_1 'Murata'
+PRP Manufacturer_Part_Number_1 'BLM18BD252SN1D'
+PRP Part_Number 'c9e30ae8-9d5b-4135-a079-b1147da846d8'
+TOP 0 0.7734252 0.49 270 N 19 2 1
+TOP 1 0.8265748 0.49 270 N 8 10 2
+#
+# CMP 52
+CMP 11 3.225 0.49 0 N L1 BLM18BD252SN1D ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Murata-Electronics-BLM18AG102SN1D_C858242019-03-10_220021.186607.pdf?Murata-Electronics-BLM18AG102SN1D_C85824.pdf'
+PRP id '14786'
+PRP Manufacturer_1 'Murata'
+PRP Manufacturer_Part_Number_1 'BLM18BD252SN1D'
+PRP Part_Number 'c9e30ae8-9d5b-4135-a079-b1147da846d8'
+TOP 0 3.1984252 0.49 270 N 20 2 1
+TOP 1 3.2515748 0.49 270 N 42 11 2
+#
+# CMP 53
+CMP 12 0.1971154 0.1968505 0 N FD6 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 0.1971154 0.1968505 0 N 0 5 5
+#
+# CMP 54
+CMP 12 2.2049894 0.1968505 0 N FD5 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 2.2049894 0.1968505 0 N 0 4 5
+#
+# CMP 55
+CMP 12 0.1971154 3.5826773 0 N FD4 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 0.1971154 3.5826773 0 N 0 3 5
+#
+# CMP 56
+CMP 12 4.6065642 0.1968505 0 N FD3 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 4.6065642 0.1968505 0 N 0 2 5
+#
+# CMP 57
+CMP 12 2.5986902 3.5826773 0 N FD2 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 2.5986902 3.5826773 0 N 0 1 5
+#
+# CMP 58
+CMP 12 2.5986902 0.1968505 0 N FD1 IPC-7351A_FIDUCIAL ;0=1,1=0.0000
+PRP id '14800'
+PRP Part_Number '19da4612-eb95-43bb-9984-553a52b2a224'
+TOP 0 2.5986902 0.1968505 0 N 0 0 5
+#
+# CMP 59
+CMP 14 1.135 0.96 0 N D8 1N4148W-TP ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Micro-Commercial-Components-MCC-1N4148W-TP_C779782019-04-06_215019.428643.pdf?Micro-Commercial-Components-MCC-1N4148W-TP_C77978.pdf'
+PRP id '14795'
+PRP Manufacturer_1 'MCC'
+PRP Manufacturer_Part_Number_1 '1N4148W-TP'
+PRP Part_Number '5e920700-75df-48e3-84dd-8f9f777caed8'
+TOP 0 1.1970078 0.96 270 N 4 4 1
+TOP 1 1.0729921 0.96 270 N 26 7 2
+#
+# CMP 60
+CMP 15 1.8029876 0.59 0 N D6 3.3V ;0=1,1=0.0303
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C3160372019-04-07_002431.794112.pdf?Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C316037.pdf'
+PRP id '14798'
+PRP Manufacturer_1 'Born Semiconductor'
+PRP Manufacturer_Part_Number_1 'PESD3V3S1BA-N'
+PRP Part_Number 'd6266fd0-7428-4fb9-a062-338cdce926fd'
+PRP Value '3.3V'
+TOP 0 1.8384207 0.59 270 N 28 19 1
+TOP 1 1.7675545 0.59 270 N 41 83 2
+#
+# CMP 61
+CMP 14 1.49 0.79 90 N D5 1N4148W-TP ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Micro-Commercial-Components-MCC-1N4148W-TP_C779782019-04-06_215019.428643.pdf?Micro-Commercial-Components-MCC-1N4148W-TP_C77978.pdf'
+PRP id '14795'
+PRP Manufacturer_1 'MCC'
+PRP Manufacturer_Part_Number_1 '1N4148W-TP'
+PRP Part_Number '5e920700-75df-48e3-84dd-8f9f777caed8'
+TOP 0 1.49 0.7279922 0 N 22 2 1
+TOP 1 1.49 0.8520079 0 N 21 4 2
+#
+# CMP 62
+CMP 14 3.6412992 0.5137008 180 N D4 1N4148W-TP ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Micro-Commercial-Components-MCC-1N4148W-TP_C779782019-04-06_215019.428643.pdf?Micro-Commercial-Components-MCC-1N4148W-TP_C77978.pdf'
+PRP id '14795'
+PRP Manufacturer_1 'MCC'
+PRP Manufacturer_Part_Number_1 '1N4148W-TP'
+PRP Part_Number '5e920700-75df-48e3-84dd-8f9f777caed8'
+TOP 0 3.5792914 0.5137008 90 N 30 10 1
+TOP 1 3.7033071 0.5137008 90 N 5 5 2
+#
+# CMP 63
+CMP 14 3.6376676 0.596035 0 N D3 1N4148W-TP ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Micro-Commercial-Components-MCC-1N4148W-TP_C779782019-04-06_215019.428643.pdf?Micro-Commercial-Components-MCC-1N4148W-TP_C77978.pdf'
+PRP id '14795'
+PRP Manufacturer_1 'MCC'
+PRP Manufacturer_Part_Number_1 '1N4148W-TP'
+PRP Part_Number '5e920700-75df-48e3-84dd-8f9f777caed8'
+TOP 0 3.6996754 0.596035 270 N 5 4 1
+TOP 1 3.5756597 0.596035 270 N 23 6 2
+#
+# CMP 64
+CMP 15 3.9036796 0.3404577 270 N D2 3.3V ;0=1,1=0.0303
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C3160372019-04-07_002431.794112.pdf?Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C316037.pdf'
+PRP id '14798'
+PRP Manufacturer_1 'Born Semiconductor'
+PRP Manufacturer_Part_Number_1 'PESD3V3S1BA-N'
+PRP Part_Number 'd6266fd0-7428-4fb9-a062-338cdce926fd'
+PRP Value '3.3V'
+TOP 0 3.9036796 0.3758908 180 N 24 14 1
+TOP 1 3.9036796 0.3050246 180 N 41 82 2
+#
+# CMP 65
+CMP 15 4.42 0.615 90 N D1 3.3V ;0=1,1=0.0303
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C3160372019-04-07_002431.794112.pdf?Bourne-Semicon-Shenzhen-PESD3V3S1BA-N_C316037.pdf'
+PRP id '14798'
+PRP Manufacturer_1 'Born Semiconductor'
+PRP Manufacturer_Part_Number_1 'PESD3V3S1BA-N'
+PRP Part_Number 'd6266fd0-7428-4fb9-a062-338cdce926fd'
+PRP Value '3.3V'
+TOP 0 4.42 0.5795669 0 N 25 8 1
+TOP 1 4.42 0.6504331 0 N 41 81 2
+#
+# CMP 66
+CMP 8 1.8029876 0.7 270 N C29 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 1.8029876 0.6685039 180 N 28 18 1
+TOP 1 1.8029876 0.731496 180 N 27 18 2
+#
+# CMP 67
+CMP 7 1.88 0.695 270 N C27 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.88 0.6684252 180 N 28 16 1
+TOP 1 1.88 0.7215748 180 N 27 16 2
+#
+# CMP 68
+CMP 7 0.93 1.0100001 90 N C26 1nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588_12019-03-10_215732.131818.pdf?Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588 (1).pdf'
+PRP id '14785'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B102KB8NNNC'
+PRP Part_Number '0eca2548-3630-4fea-a3d5-94248c1cae74'
+PRP Value '1nF'
+TOP 0 0.93 1.0365749 0 N 26 6 1
+TOP 1 0.93 0.9834253 0 N 41 80 2
+#
+# CMP 69
+CMP 7 1.725 0.695 270 N C25 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.725 0.6684252 180 N 28 15 1
+TOP 1 1.725 0.7215748 180 N 27 15 2
+#
+# CMP 70
+CMP 7 1.655 0.695 270 N C24 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.655 0.6684252 180 N 28 14 1
+TOP 1 1.655 0.7215748 180 N 27 14 2
+#
+# CMP 71
+CMP 7 1.2534252 0.2715748 90 N C23 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.2534252 0.2981496 0 N 29 6 1
+TOP 1 1.2534252 0.245 0 N 41 79 2
+#
+# CMP 72
+CMP 7 0.6686902 0.7700001 90 N C18 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 0.6686902 0.7965749 0 N 41 74 1
+TOP 1 0.6686902 0.7434253 0 N 8 8 2
+#
+# CMP 73
+CMP 7 1.3734252 0.8880315 180 N C21 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 1.4 0.8880315 90 N 41 77 1
+TOP 1 1.3468504 0.8880315 90 N 43 9 2
+#
+# CMP 74
+CMP 8 1.1394839 0.363189 180 N C20 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 1.17098 0.363189 90 N 41 76 1
+TOP 1 1.1079879 0.363189 90 N 43 8 2
+#
+# CMP 75
+CMP 8 1.1394839 0.483189 180 N C19 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 1.17098 0.483189 90 N 41 75 1
+TOP 1 1.1079879 0.483189 90 N 8 9 2
+#
+# CMP 76
+CMP 3 0.4907223 0.8739072 270 N C17 220uF ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Rubycon-220uF-25V_C109337_12019-03-10_214953.757848.pdf?Rubycon-220uF-25V_C109337 (1).pdf'
+PRP id '14782'
+PRP Manufacturer_1 'Rubycon'
+PRP Manufacturer_Part_Number_1 '25PK220MEFC-6.3*11'
+PRP Part_Number '1a28df19-6d3e-4a71-836c-f22920f8e8ab'
+PRP Value '220uF'
+TOP 0 0.4907223 0.8739072 270 N 8 15 1
+TOP 1 0.4907223 0.9723324 270 N 41 95 2
+#
+# CMP 77
+CMP 8 3.7876676 0.556035 270 N C16 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 3.7876676 0.5245389 180 N 30 9 1
+TOP 1 3.7876676 0.587531 180 N 41 73 2
+#
+# CMP 78
+CMP 7 3.135 0.73 0 N C15 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 3.1084252 0.73 270 N 31 2 1
+TOP 1 3.1615748 0.73 270 N 41 72 2
+#
+# CMP 79
+CMP 3 4.295 0.995 90 N C14 220uF ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Rubycon-220uF-25V_C109337_12019-03-10_214953.757848.pdf?Rubycon-220uF-25V_C109337 (1).pdf'
+PRP id '14782'
+PRP Manufacturer_1 'Rubycon'
+PRP Manufacturer_Part_Number_1 '25PK220MEFC-6.3*11'
+PRP Part_Number '1a28df19-6d3e-4a71-836c-f22920f8e8ab'
+PRP Value '220uF'
+TOP 0 4.295 0.995 90 N 33 9 1
+TOP 1 4.295 0.8965748 90 N 34 9 2
+#
+# CMP 80
+CMP 7 2.9563732 0.961035 0 N C13 1nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588_12019-03-10_215732.131818.pdf?Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588 (1).pdf'
+PRP id '14785'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B102KB8NNNC'
+PRP Part_Number '0eca2548-3630-4fea-a3d5-94248c1cae74'
+PRP Value '1nF'
+TOP 0 2.9297984 0.961035 270 N 36 7 1
+TOP 1 2.982948 0.961035 270 N 32 2 2
+#
+# CMP 81
+CMP 8 4.1076676 1.0000737 270 N C12 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 4.1076676 0.9685776 180 N 34 6 1
+TOP 1 4.1076676 1.0315697 180 N 33 6 2
+#
+# CMP 82
+CMP 7 3.375 0.885 0 N C11 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 3.3484252 0.885 270 N 38 5 1
+TOP 1 3.4015748 0.885 270 N 37 5 2
+#
+# CMP 83
+CMP 7 2.9563732 0.891035 0 N C10 1nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588_12019-03-10_215732.131818.pdf?Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588 (1).pdf'
+PRP id '14785'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B102KB8NNNC'
+PRP Part_Number '0eca2548-3630-4fea-a3d5-94248c1cae74'
+PRP Value '1nF'
+TOP 0 2.9297984 0.891035 270 N 36 6 1
+TOP 1 2.982948 0.891035 270 N 35 2 2
+#
+# CMP 84
+CMP 8 3.385 0.81 0 N C9 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 3.3535039 0.81 270 N 38 4 1
+TOP 1 3.416496 0.81 270 N 37 4 2
+#
+# CMP 85
+CMP 8 4.1863732 0.7450737 270 N C8 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 4.1863732 0.7135776 180 N 40 7 1
+TOP 1 4.1863732 0.7765697 180 N 39 7 2
+#
+# CMP 86
+CMP 7 4.2613732 0.7484989 270 N C7 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 4.2613732 0.7219241 180 N 40 6 1
+TOP 1 4.2613732 0.7750737 180 N 39 6 2
+#
+# CMP 87
+CMP 7 3.2750788 0.9300737 270 N C5 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 3.2750788 0.9034989 180 N 41 70 1
+TOP 1 3.2750788 0.9566485 180 N 9 24 2
+#
+# CMP 88
+CMP 8 3.2680662 0.70024 0 N C4 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 3.2365701 0.70024 270 N 41 69 1
+TOP 1 3.2995622 0.70024 270 N 9 23 2
+#
+# CMP 89
+CMP 8 3.2680662 0.58024 0 N C3 10uF ;0=1,1=0.0453
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C158502019-03-10_213827.610739.pdf?Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf'
+PRP id '14779'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_2 'Murata'
+PRP Manufacturer_Part_Number_1 'CL21A106KAYNNNE'
+PRP Manufacturer_Part_Number_2 'GRM21BR61E106KA73L'
+PRP Part_Number '1ffbe5a9-0884-4740-bdad-20a6a98400e6'
+PRP Value '10uF'
+TOP 0 3.2365701 0.58024 270 N 41 68 1
+TOP 1 3.2995622 0.58024 270 N 42 10 2
+#
+# CMP 90
+CMP 7 3.8963732 0.6539173 180 N C2 100nF ;0=1,1=0.0350
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Samsung-Electro-Mechanics-CL10B104KA8NNNC_C15902019-03-10_215548.826887.pdf?Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf'
+PRP id '14784'
+PRP Manufacturer_1 'Samsung Electro-Mechanics'
+PRP Manufacturer_Part_Number_1 'CL10B104KA8NNNC'
+PRP Part_Number '02841f84-ac15-41b5-9e17-915f8f067828'
+PRP Value '100nF'
+TOP 0 3.922948 0.6539173 90 N 41 67 1
+TOP 1 3.8697984 0.6539173 90 N 42 9 2
+#
+# CMP 91
+CMP 3 2.9617646 0.6450737 180 N C1 220uF ;0=2,1=0.0000
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://localhost:8080/static/files/Rubycon-220uF-25V_C109337_12019-03-10_214953.757848.pdf?Rubycon-220uF-25V_C109337 (1).pdf'
+PRP id '14782'
+PRP Manufacturer_1 'Rubycon'
+PRP Manufacturer_Part_Number_1 '25PK220MEFC-6.3*11'
+PRP Part_Number '1a28df19-6d3e-4a71-836c-f22920f8e8ab'
+PRP Value '220uF'
+TOP 0 2.9617646 0.6450737 180 N 42 14 1
+TOP 1 2.8633394 0.6450737 180 N 41 94 2
+#
